@@ -1,0 +1,991 @@
+;id_paciente;id_genero;gênero;idade;uf;estado;regiao;peso;imc;triglicerídeos;colesterol total;nível de açúcar;consumo de álcool;pressão sistólica;clusters;risco
+0;1;1;M;74.0;MG;Minas Gerais;Sudeste;162.1;31.7;152.6;262.8;Normal;Moderado;139;2;risco alto
+1;2;0;F;34.0;SP;São Paulo;Sudeste;193.4;28.1;152.4;199.2;Normal;Baixo;93;2;risco alto
+2;3;1;M;18.0;BA;Bahia;Nordeste;162.2;26.1;190.1;223.4;Normal;Moderado;109;1;risco muito alto
+3;4;1;M;72.0;PA;Pará;Norte;155.4;31.6;130.2;189.7;Normal;Baixo;159;2;risco alto
+4;5;0;F;63.0;PR;Paraná;Sul;161.5;37.2;146.0;218.3;Normal;Baixo;99;2;risco alto
+5;6;0;F;78.0;MG;Minas Gerais;Sudeste;148.6;24.2;154.3;183.3;Normal;Moderado;165;2;risco alto
+6;7;0;F;23.0;AL;Alagoas;Nordeste;168.0;19.7;259.3;232.8;Normal;Alto;118;1;risco muito alto
+7;8;0;F;40.0;AL;Alagoas;Nordeste;126.4;19.5;175.2;203.8;Normal;Baixo;167;2;risco alto
+8;9;1;M;27.0;DF;Distrito Federal;Centro-Oeste;169.5;37.6;205.6;222.0;Normal;Moderado;126;1;risco muito alto
+9;10;0;F;79.0;DF;Distrito Federal;Centro-Oeste;115.8;22.2;140.2;187.9;Normal;Moderado;105;2;risco alto
+10;11;1;M;30.0;AL;Alagoas;Nordeste;156.2;23.0;124.9;181.3;Normal;Moderado;93;2;risco alto
+11;12;1;M;79.0;AL;Alagoas;Nordeste;181.8;21.7;135.9;189.0;Normal;Baixo;102;2;risco alto
+12;13;0;F;75.0;ES;Espírito Santo;Sudeste;134.3;25.7;148.1;175.5;Normal;Baixo;141;2;risco alto
+13;14;0;F;54.0;PR;Paraná;Sul;155.7;29.4;112.3;205.2;Normal;Moderado;158;0;risco intermediário
+14;15;0;F;40.0;AM;Amazonas;Norte;101.0;23.3;129.9;153.1;Normal;Baixo;122;0;risco intermediário
+15;16;0;F;30.0;AM;Amazonas;Norte;152.9;39.6;125.2;160.8;Normal;Baixo;122;2;risco alto
+16;17;0;F;77.0;AL;Alagoas;Nordeste;177.1;19.0;138.0;215.7;Normal;Alto;137;2;risco alto
+17;18;0;F;31.0;CE;Ceará;Nordeste;149.6;21.2;125.1;171.5;Normal;Moderado;133;2;risco alto
+18;19;1;M;52.0;MT;Mato Grosso;Centro-Oeste;149.6;25.4;195.0;216.3;Normal;Baixo;137;1;risco muito alto
+19;20;1;M;42.0;RR;Roraima;Norte;164.6;37.0;164.5;174.7;Normal;Baixo;108;2;risco alto
+20;21;1;M;50.0;PE;Pernambuco;Nordeste;176.2;39.2;148.1;228.0;Normal;Moderado;155;2;risco alto
+21;22;0;F;55.0;TO;Tocantins;Norte;166.5;39.2;85.0;194.3;Normal;Moderado;98;0;risco intermediário
+22;23;1;M;24.0;SE;Sergipe;Nordeste;148.6;29.4;142.6;223.2;Normal;Moderado;169;2;risco alto
+23;24;0;F;29.0;RR;Roraima;Norte;153.3;29.7;143.2;211.3;Normal;Moderado;145;2;risco alto
+24;25;0;F;69.0;RS;Rio Grande do Sul;Sul;156.7;31.0;122.6;204.9;Normal;Baixo;155;2;risco alto
+25;26;1;M;61.0;MS;Mato Grosso do Sul;Centro-Oeste;144.8;22.9;114.7;176.9;Normal;Moderado;96;0;risco intermediário
+26;27;0;F;31.0;BA;Bahia;Nordeste;190.7;29.7;190.8;211.8;Normal;Moderado;110;1;risco muito alto
+27;28;1;M;41.0;CE;Ceará;Nordeste;187.1;22.2;143.5;196.2;Normal;Moderado;114;2;risco alto
+28;29;1;M;75.0;PB;Paraíba;Nordeste;103.6;27.1;138.5;160.2;Normal;Moderado;159;0;risco intermediário
+29;30;1;M;31.0;SP;São Paulo;Sudeste;168.5;23.7;162.2;189.5;Normal;Baixo;121;2;risco alto
+30;31;1;M;21.0;TO;Tocantins;Norte;154.5;19.9;86.0;153.3;Normal;Baixo;144;0;risco intermediário
+31;32;0;F;25.0;AC;Acre;Norte;147.2;24.4;135.0;155.1;Normal;Moderado;91;2;risco alto
+32;33;1;M;75.0;MA;Maranhão;Nordeste;103.2;39.1;117.0;173.8;Normal;Moderado;121;0;risco intermediário
+33;34;1;M;80.0;RN;Rio Grande do Norte;Nordeste;167.8;29.3;172.3;201.0;Alto;Baixo;161;1;risco muito alto
+34;35;0;F;18.0;RJ;Rio de Janeiro;Sudeste;198.9;20.8;182.7;247.8;Alto;Moderado;97;1;risco muito alto
+35;36;0;F;48.0;MA;Maranhão;Nordeste;121.0;18.1;217.5;189.4;Normal;Baixo;147;1;risco muito alto
+36;37;1;M;74.0;PE;Pernambuco;Nordeste;140.9;33.7;122.3;179.1;Normal;Moderado;119;0;risco intermediário
+37;38;0;F;55.0;PB;Paraíba;Nordeste;174.6;35.2;107.1;204.8;Normal;Moderado;111;0;risco intermediário
+38;39;0;F;71.0;MA;Maranhão;Nordeste;184.6;26.9;215.8;246.1;Normal;Baixo;134;1;risco muito alto
+39;40;1;M;62.0;AC;Acre;Norte;185.5;29.5;159.6;234.0;Normal;Moderado;93;2;risco alto
+40;41;1;M;63.0;PI;Piauí;Nordeste;146.7;32.6;139.9;216.6;Alto;Baixo;169;2;risco alto
+41;42;1;M;57.0;SP;São Paulo;Sudeste;185.1;26.7;244.1;255.2;Normal;Moderado;158;1;risco muito alto
+42;43;0;F;23.0;MS;Mato Grosso do Sul;Centro-Oeste;177.2;26.7;141.9;193.22;Normal;Baixo;165;2;risco alto
+43;44;1;M;25.0;SC;Santa Catarina;Sul;129.8;27.2;139.0;170.7;Normal;Baixo;156;2;risco alto
+44;45;1;M;59.0;RN;Rio Grande do Norte;Nordeste;168.4;20.5;173.0;176.0;Normal;Baixo;146;1;risco muito alto
+45;46;1;M;74.0;RR;Roraima;Norte;176.8;36.3;146.0;200.9;Normal;Moderado;118;2;risco alto
+46;47;1;M;31.0;SE;Sergipe;Nordeste;134.1;28.0;152.4;182.7;Normal;Baixo;111;2;risco alto
+47;48;1;M;45.0;DF;Distrito Federal;Centro-Oeste;135.2;18.9;148.7;163.3;Alto;Moderado;125;2;risco alto
+48;49;0;F;41.0;AL;Alagoas;Nordeste;113.8;24.4;175.8;193.22;Normal;Baixo;141;2;risco alto
+49;50;1;M;54.0;AL;Alagoas;Nordeste;176.1;36.5;182.0;209.5;Normal;Baixo;99;1;risco muito alto
+50;51;0;F;45.0;PR;Paraná;Sul;187.1;28.8;208.7;219.4;Normal;Baixo;114;1;risco muito alto
+51;52;1;M;74.0;AC;Acre;Norte;160.4;26.6;151.2;184.0;Normal;Baixo;95;2;risco alto
+52;53;0;F;51.0;SC;Santa Catarina;Sul;193.3;28.5;242.1;244.6;Normal;Baixo;154;1;risco muito alto
+53;54;1;M;70.0;RJ;Rio de Janeiro;Sudeste;126.4;32.4;141.2;161.7;Normal;Baixo;128;2;risco alto
+54;55;0;F;28.0;PI;Piauí;Nordeste;185.9;21.5;184.0;241.4;Normal;Baixo;103;1;risco muito alto
+55;56;0;F;22.0;AM;Amazonas;Norte;159.2;37.7;167.1;234.3;Alto;Baixo;106;2;risco alto
+56;57;1;M;64.0;PR;Paraná;Sul;214.9;36.4;173.1;278.9;Normal;Baixo;102;1;risco muito alto
+57;58;0;F;77.0;RO;Rondônia;Norte;170.1;38.7;89.7;200.3;Normal;Baixo;151;0;risco intermediário
+58;59;1;M;58.0;MA;Maranhão;Nordeste;173.8;37.3;92.6;184.1;Normal;Moderado;126;0;risco intermediário
+59;60;0;F;21.0;SC;Santa Catarina;Sul;143.0;26.2;159.3;252.2;Normal;Moderado;159;2;risco alto
+60;61;1;M;50.0;AP;Amapá;Norte;158.5;34.5;225.7;248.3;Alto;Moderado;151;1;risco muito alto
+61;62;1;M;76.0;GO;Goiás;Centro-Oeste;170.7;19.1;162.3;233.7;Normal;Baixo;158;2;risco alto
+62;63;0;F;64.0;TO;Tocantins;Norte;114.7;34.5;220.0;202.0;Alto;Baixo;142;1;risco muito alto
+63;64;1;M;80.0;SE;Sergipe;Nordeste;175.3;21.0;132.4;174.8;Alto;Baixo;169;2;risco alto
+64;65;1;M;41.0;MG;Minas Gerais;Sudeste;173.3;35.2;73.5;165.2;Normal;Moderado;109;0;risco intermediário
+65;66;0;F;25.0;SE;Sergipe;Nordeste;104.2;30.2;114.6;112.3;Normal;Baixo;162;0;risco intermediário
+66;67;1;M;41.0;AM;Amazonas;Norte;135.6;18.3;110.7;144.4;Normal;Moderado;125;0;risco intermediário
+67;68;1;M;79.0;AC;Acre;Norte;189.6;38.4;140.4;182.3;Alto;Baixo;108;2;risco alto
+68;69;0;F;31.0;RJ;Rio de Janeiro;Sudeste;146.3;27.3;190.9;257.0;Normal;Moderado;129;1;risco muito alto
+69;70;0;F;34.0;PA;Pará;Norte;144.4;23.2;139.6;179.6;Normal;Moderado;109;2;risco alto
+70;71;1;M;78.0;PE;Pernambuco;Nordeste;97.1;30.9;99.8;140.1;Normal;Baixo;162;0;risco intermediário
+71;72;0;F;30.0;MA;Maranhão;Nordeste;173.4;39.1;216.5;207.6;Normal;Baixo;117;1;risco muito alto
+72;73;1;M;52.0;SE;Sergipe;Nordeste;175.6;22.3;150.2;196.8;Normal;Baixo;136;2;risco alto
+73;74;0;F;55.0;RO;Rondônia;Norte;103.9;38.5;147.3;113.2;Normal;Baixo;116;2;risco alto
+74;75;1;M;68.0;RJ;Rio de Janeiro;Sudeste;120.4;26.1;154.4;187.3;Normal;Moderado;101;2;risco alto
+75;76;1;M;37.0;GO;Goiás;Centro-Oeste;157.6;38.4;133.8;197.7;Alto;Baixo;109;2;risco alto
+76;77;1;M;80.0;MT;Mato Grosso;Centro-Oeste;198.6;21.8;202.3;219.8;Alto;Baixo;113;1;risco muito alto
+77;78;0;F;66.0;CE;Ceará;Nordeste;170.3;37.1;182.1;191.6;Normal;Baixo;170;1;risco muito alto
+78;79;1;M;72.0;SE;Sergipe;Nordeste;157.2;32.6;126.2;224.4;Normal;Baixo;126;2;risco alto
+79;80;1;M;70.0;TO;Tocantins;Norte;135.6;26.8;161.1;178.0;Normal;Baixo;145;2;risco alto
+80;81;0;F;19.0;PR;Paraná;Sul;146.8;21.8;124.7;162.2;Normal;Baixo;95;0;risco intermediário
+81;82;1;M;45.0;SE;Sergipe;Nordeste;128.9;35.3;112.8;161.9;Normal;Baixo;122;0;risco intermediário
+82;83;1;M;41.0;AM;Amazonas;Norte;110.0;26.9;113.3;154.9;Alto;Baixo;99;0;risco intermediário
+83;84;0;F;39.0;RJ;Rio de Janeiro;Sudeste;154.1;37.4;146.1;193.4;Normal;Alto;103;2;risco alto
+84;85;0;F;64.0;AP;Amapá;Norte;72.3;31.3;99.5;131.1;Alto;Moderado;99;0;risco intermediário
+85;86;1;M;43.0;RJ;Rio de Janeiro;Sudeste;157.9;34.9;139.8;205.6;Alto;Moderado;116;2;risco alto
+86;87;1;M;48.0;SC;Santa Catarina;Sul;164.4;19.0;120.2;199.7;Normal;Moderado;170;2;risco alto
+87;88;0;F;37.0;AC;Acre;Norte;114.6;36.3;97.4;165.0;Alto;Moderado;104;0;risco intermediário
+88;89;1;M;67.0;TO;Tocantins;Norte;172.6;39.9;83.5;184.8;Normal;Baixo;161;0;risco intermediário
+89;90;1;M;45.0;PA;Pará;Norte;150.9;25.2;206.0;212.1;Normal;Baixo;165;1;risco muito alto
+90;91;1;M;73.0;ES;Espírito Santo;Sudeste;122.8;22.7;149.1;138.2;Normal;Baixo;149;2;risco alto
+91;92;1;M;44.0;CE;Ceará;Nordeste;127.4;22.3;176.5;182.4;Normal;Baixo;129;2;risco alto
+92;94;0;F;59.0;PE;Pernambuco;Nordeste;153.7;27.4;138.0;178.9;Normal;Baixo;104;2;risco alto
+93;95;1;M;61.0;CE;Ceará;Nordeste;169.8;19.2;132.6;185.6;Normal;Baixo;117;2;risco alto
+94;96;1;M;74.0;PB;Paraíba;Nordeste;152.8;32.6;159.6;208.2;Alto;Baixo;120;2;risco alto
+95;97;1;M;58.0;MG;Minas Gerais;Sudeste;153.6;25.3;140.5;141.7;Alto;Baixo;170;2;risco alto
+96;98;0;F;22.0;MG;Minas Gerais;Sudeste;129.0;20.8;156.9;150.1;Normal;Moderado;148;2;risco alto
+97;99;1;M;46.0;BA;Bahia;Nordeste;181.3;35.8;161.2;210.6;Normal;Baixo;112;2;risco alto
+98;100;1;M;43.0;AL;Alagoas;Nordeste;133.4;25.0;139.8;179.7;Normal;Moderado;163;2;risco alto
+99;101;1;M;47.0;RO;Rondônia;Norte;162.3;20.2;115.4;197.0;Normal;Moderado;91;0;risco intermediário
+100;102;1;M;68.0;PI;Piauí;Nordeste;159.4;19.2;70.3;198.2;Normal;Baixo;104;0;risco intermediário
+101;103;0;F;67.0;RS;Rio Grande do Sul;Sul;126.5;28.7;144.3;239.2;Normal;Baixo;106;2;risco alto
+102;104;0;F;46.0;MS;Mato Grosso do Sul;Centro-Oeste;114.6;18.8;192.0;183.9;Normal;Baixo;140;1;risco muito alto
+103;105;0;F;47.0;AM;Amazonas;Norte;158.4;37.9;178.5;206.1;Normal;Baixo;148;1;risco muito alto
+104;106;0;F;48.0;RO;Rondônia;Norte;141.4;22.0;159.7;188.7;Normal;Baixo;137;2;risco alto
+105;107;1;M;45.0;SC;Santa Catarina;Sul;182.0;35.3;172.4;249.5;Normal;Alto;147;1;risco muito alto
+106;108;0;F;44.0;BA;Bahia;Nordeste;134.9;26.8;160.0;181.1;Normal;Baixo;143;2;risco alto
+107;109;1;M;54.0;PA;Pará;Norte;121.7;26.9;177.6;188.4;Normal;Baixo;90;2;risco alto
+108;110;0;F;46.0;PE;Pernambuco;Nordeste;114.1;24.9;69.9;193.1;Normal;Moderado;166;0;risco intermediário
+109;111;1;M;29.0;AM;Amazonas;Norte;175.2;25.2;169.4;238.6;Normal;Alto;131;1;risco muito alto
+110;112;0;F;43.0;RR;Roraima;Norte;180.6;30.4;114.0;173.8;Normal;Moderado;119;2;risco alto
+111;113;1;M;71.0;RN;Rio Grande do Norte;Nordeste;129.5;32.1;83.4;177.6;Normal;Baixo;158;0;risco intermediário
+112;114;1;M;18.0;DF;Distrito Federal;Centro-Oeste;151.7;27.0;183.6;202.5;Alto;Moderado;119;1;risco muito alto
+113;115;0;F;21.0;SP;São Paulo;Sudeste;161.1;22.6;151.6;200.4;Normal;Moderado;115;2;risco alto
+114;116;1;M;39.0;SC;Santa Catarina;Sul;139.8;22.8;120.4;195.5;Alto;Alto;127;0;risco intermediário
+115;117;0;F;60.0;DF;Distrito Federal;Centro-Oeste;177.5;26.0;203.0;252.2;Normal;Baixo;155;1;risco muito alto
+116;118;1;M;56.0;SE;Sergipe;Nordeste;196.2;39.7;147.6;212.9;Alto;Baixo;154;2;risco alto
+117;119;1;M;48.0;PE;Pernambuco;Nordeste;173.2;21.6;94.8;188.3;Alto;Moderado;125;0;risco intermediário
+118;120;1;M;29.0;AC;Acre;Norte;135.7;21.9;97.8;158.9;Normal;Alto;126;0;risco intermediário
+119;121;1;M;54.0;AM;Amazonas;Norte;163.8;34.5;100.6;175.0;Normal;Moderado;162;0;risco intermediário
+120;122;1;M;24.0;AP;Amapá;Norte;136.9;33.3;108.2;129.1;Alto;Baixo;143;0;risco intermediário
+121;123;1;M;19.0;GO;Goiás;Centro-Oeste;152.0;28.5;132.7;147.3;Normal;Moderado;137;2;risco alto
+122;124;0;F;39.0;DF;Distrito Federal;Centro-Oeste;130.8;34.1;113.6;189.4;Normal;Baixo;142;0;risco intermediário
+123;125;1;M;26.0;MT;Mato Grosso;Centro-Oeste;140.7;24.7;176.4;225.8;Normal;Baixo;137;2;risco alto
+124;126;0;F;75.0;PR;Paraná;Sul;138.3;29.0;170.6;161.7;Normal;Baixo;165;2;risco alto
+125;127;0;F;54.0;DF;Distrito Federal;Centro-Oeste;172.7;33.0;101.8;205.1;Normal;Baixo;158;0;risco intermediário
+126;128;0;F;80.0;BA;Bahia;Nordeste;140.0;18.9;158.7;200.7;Normal;Baixo;124;2;risco alto
+127;129;0;F;76.0;ES;Espírito Santo;Sudeste;166.9;26.1;190.4;191.8;Normal;Baixo;116;1;risco muito alto
+128;130;0;F;43.0;MG;Minas Gerais;Sudeste;130.7;25.8;126.4;141.4;Normal;Moderado;102;0;risco intermediário
+129;131;1;M;20.0;PA;Pará;Norte;158.4;35.2;184.7;215.0;Alto;Baixo;121;1;risco muito alto
+130;132;1;M;79.0;RO;Rondônia;Norte;136.3;18.4;124.2;186.6;Normal;Baixo;95;0;risco intermediário
+131;133;1;M;72.0;GO;Goiás;Centro-Oeste;98.5;26.0;157.9;167.0;Normal;Baixo;120;2;risco alto
+132;134;1;M;48.0;MA;Maranhão;Nordeste;166.9;27.5;188.5;210.4;Normal;Moderado;140;1;risco muito alto
+133;135;0;F;55.0;SP;São Paulo;Sudeste;189.3;29.7;118.1;197.4;Alto;Alto;124;2;risco alto
+134;136;0;F;56.0;PE;Pernambuco;Nordeste;189.5;33.9;213.5;263.3;Normal;Moderado;162;1;risco muito alto
+135;137;0;F;52.0;PB;Paraíba;Nordeste;99.2;27.1;73.4;106.0;Normal;Moderado;156;0;risco intermediário
+136;138;1;M;78.0;PE;Pernambuco;Nordeste;131.8;39.4;166.4;182.5;Normal;Moderado;117;2;risco alto
+137;139;0;F;30.0;AP;Amapá;Norte;159.8;26.1;221.2;216.7;Normal;Baixo;128;1;risco muito alto
+138;140;1;M;33.0;AC;Acre;Norte;146.8;29.2;157.4;220.9;Normal;Baixo;120;2;risco alto
+139;141;1;M;63.0;DF;Distrito Federal;Centro-Oeste;135.6;38.2;117.4;223.6;Normal;Baixo;96;0;risco intermediário
+140;142;0;F;76.0;SE;Sergipe;Nordeste;177.1;30.1;197.3;210.7;Normal;Moderado;132;1;risco muito alto
+141;143;1;M;60.0;PR;Paraná;Sul;207.7;20.5;164.8;254.2;Normal;Baixo;102;1;risco muito alto
+142;144;1;M;53.0;AL;Alagoas;Nordeste;198.2;21.8;180.3;254.0;Normal;Alto;164;1;risco muito alto
+143;145;1;M;30.0;AP;Amapá;Norte;155.8;31.2;113.2;172.6;Normal;Moderado;93;0;risco intermediário
+144;146;0;F;39.0;SE;Sergipe;Nordeste;112.6;27.9;101.2;184.8;Normal;Baixo;136;0;risco intermediário
+145;147;1;M;24.0;DF;Distrito Federal;Centro-Oeste;144.0;19.0;168.1;156.9;Alto;Baixo;124;2;risco alto
+146;148;0;F;67.0;TO;Tocantins;Norte;175.1;25.8;199.6;218.6;Normal;Baixo;143;1;risco muito alto
+147;149;0;F;68.0;CE;Ceará;Nordeste;150.4;28.7;143.6;244.7;Alto;Baixo;119;2;risco alto
+148;150;0;F;57.0;DF;Distrito Federal;Centro-Oeste;138.9;32.7;103.2;228.7;Normal;Baixo;143;0;risco intermediário
+149;151;1;M;62.0;RJ;Rio de Janeiro;Sudeste;126.0;28.4;108.6;141.4;Normal;Baixo;97;0;risco intermediário
+150;152;1;M;59.0;AC;Acre;Norte;168.2;26.0;167.7;203.5;Normal;Baixo;147;2;risco alto
+151;153;0;F;43.0;MG;Minas Gerais;Sudeste;71.1;21.3;113.2;101.6;Normal;Baixo;122;0;risco intermediário
+152;154;1;M;47.0;MG;Minas Gerais;Sudeste;110.0;28.3;151.3;196.5;Normal;Baixo;153;2;risco alto
+153;155;1;M;27.0;ES;Espírito Santo;Sudeste;189.3;28.8;168.4;206.2;Alto;Baixo;151;1;risco muito alto
+154;156;0;F;75.0;SC;Santa Catarina;Sul;196.8;29.0;149.1;214.5;Normal;Baixo;147;2;risco alto
+155;157;1;M;54.0;AM;Amazonas;Norte;139.5;25.9;121.5;175.7;Normal;Baixo;167;0;risco intermediário
+156;158;1;M;50.0;PB;Paraíba;Nordeste;137.6;22.3;134.3;179.6;Normal;Baixo;135;2;risco alto
+157;159;1;M;77.0;SC;Santa Catarina;Sul;201.4;31.1;123.4;209.2;Normal;Alto;145;2;risco alto
+158;160;1;M;30.0;AM;Amazonas;Norte;142.5;38.0;147.7;228.4;Alto;Moderado;103;2;risco alto
+159;161;1;M;20.0;MS;Mato Grosso do Sul;Centro-Oeste;173.0;34.2;148.4;210.5;Normal;Moderado;113;2;risco alto
+160;162;1;M;56.0;PB;Paraíba;Nordeste;139.2;28.6;130.6;207.4;Normal;Moderado;143;2;risco alto
+161;166;1;M;52.0;PR;Paraná;Sul;167.8;29.5;113.4;175.5;Alto;Baixo;132;0;risco intermediário
+162;167;1;M;70.0;RR;Roraima;Norte;199.2;20.7;89.5;169.8;Normal;Baixo;143;0;risco intermediário
+163;168;1;M;61.0;MG;Minas Gerais;Sudeste;161.9;32.7;119.3;165.7;Normal;Moderado;106;2;risco alto
+164;169;1;M;40.0;BA;Bahia;Nordeste;162.3;25.0;134.3;198.6;Normal;Baixo;123;2;risco alto
+165;170;1;M;73.0;CE;Ceará;Nordeste;173.2;22.3;74.3;165.4;Normal;Moderado;131;0;risco intermediário
+166;171;1;M;58.0;CE;Ceará;Nordeste;137.1;39.7;73.4;160.2;Normal;Baixo;99;0;risco intermediário
+167;172;1;M;22.0;SP;São Paulo;Sudeste;168.0;26.5;161.8;178.4;Normal;Alto;100;2;risco alto
+168;173;1;M;72.0;DF;Distrito Federal;Centro-Oeste;89.5;36.8;205.8;173.8;Normal;Moderado;162;1;risco muito alto
+169;174;1;M;19.0;PR;Paraná;Sul;207.4;38.8;189.4;264.2;Normal;Baixo;103;1;risco muito alto
+170;175;0;F;33.0;MA;Maranhão;Nordeste;121.9;40.0;131.6;150.7;Alto;Baixo;140;0;risco intermediário
+171;176;0;F;61.0;ES;Espírito Santo;Sudeste;106.7;36.5;114.3;173.0;Normal;Baixo;105;0;risco intermediário
+172;177;1;M;52.0;PB;Paraíba;Nordeste;154.5;23.2;127.8;147.0;Normal;Moderado;104;2;risco alto
+173;178;1;M;55.0;MA;Maranhão;Nordeste;147.5;36.2;86.1;196.5;Normal;Baixo;107;0;risco intermediário
+174;179;0;F;36.0;RN;Rio Grande do Norte;Nordeste;162.2;33.8;169.3;200.6;Alto;Baixo;105;2;risco alto
+175;180;1;M;37.0;PR;Paraná;Sul;160.6;18.0;205.6;230.4;Normal;Baixo;120;1;risco muito alto
+176;181;1;M;52.0;BA;Bahia;Nordeste;136.4;22.2;84.3;173.7;Alto;Baixo;160;0;risco intermediário
+177;182;1;M;55.0;MT;Mato Grosso;Centro-Oeste;166.6;38.2;180.8;220.8;Normal;Baixo;160;1;risco muito alto
+178;183;1;M;57.0;MS;Mato Grosso do Sul;Centro-Oeste;105.5;37.9;156.0;194.7;Alto;Baixo;120;2;risco alto
+179;184;1;M;35.0;MA;Maranhão;Nordeste;109.6;20.2;109.9;136.0;Normal;Moderado;102;0;risco intermediário
+180;185;1;M;19.0;ES;Espírito Santo;Sudeste;118.7;28.2;96.9;183.6;Normal;Alto;99;0;risco intermediário
+181;186;1;M;44.0;SC;Santa Catarina;Sul;137.3;19.8;150.7;193.7;Normal;Baixo;104;2;risco alto
+182;187;0;F;20.0;RO;Rondônia;Norte;140.3;26.6;197.2;184.6;Normal;Moderado;102;1;risco muito alto
+183;188;0;F;49.0;MS;Mato Grosso do Sul;Centro-Oeste;145.1;34.9;193.1;169.5;Normal;Moderado;134;1;risco muito alto
+184;189;0;F;43.0;MG;Minas Gerais;Sudeste;160.6;21.9;100.1;173.3;Normal;Baixo;167;0;risco intermediário
+185;190;1;M;45.0;PB;Paraíba;Nordeste;129.7;18.9;179.7;185.5;Normal;Moderado;142;2;risco alto
+186;191;1;M;46.0;CE;Ceará;Nordeste;171.0;33.5;109.8;192.5;Normal;Baixo;99;0;risco intermediário
+187;192;0;F;37.0;RS;Rio Grande do Sul;Sul;155.2;37.0;200.8;192.7;Normal;Alto;97;1;risco muito alto
+188;193;1;M;38.0;DF;Distrito Federal;Centro-Oeste;178.4;21.6;163.7;263.2;Normal;Baixo;131;2;risco alto
+189;194;1;M;51.0;PA;Pará;Norte;159.5;33.1;145.4;223.1;Normal;Baixo;129;2;risco alto
+190;195;1;M;33.0;SP;São Paulo;Sudeste;145.7;26.7;137.8;191.2;Normal;Baixo;92;2;risco alto
+191;196;0;F;64.0;DF;Distrito Federal;Centro-Oeste;134.6;20.6;96.3;144.4;Normal;Baixo;118;0;risco intermediário
+192;197;1;M;42.0;AL;Alagoas;Nordeste;146.6;19.9;175.3;215.4;Alto;Baixo;134;2;risco alto
+193;198;0;F;55.0;SP;São Paulo;Sudeste;187.4;35.1;201.9;194.5;Normal;Baixo;116;1;risco muito alto
+194;199;0;F;28.0;BA;Bahia;Nordeste;144.5;19.5;120.3;169.1;Normal;Moderado;91;0;risco intermediário
+195;200;0;F;29.0;SE;Sergipe;Nordeste;131.9;35.7;150.8;191.5;Alto;Baixo;142;2;risco alto
+196;201;0;F;53.0;RS;Rio Grande do Sul;Sul;142.2;22.9;141.8;197.8;Normal;Moderado;119;2;risco alto
+197;202;1;M;37.0;MT;Mato Grosso;Centro-Oeste;142.5;35.4;148.6;198.4;Normal;Moderado;116;2;risco alto
+198;203;1;M;25.0;RR;Roraima;Norte;150.8;25.6;122.3;175.1;Normal;Moderado;116;0;risco intermediário
+199;204;1;M;30.0;PE;Pernambuco;Nordeste;137.1;38.7;98.1;174.6;Alto;Baixo;151;0;risco intermediário
+200;205;1;M;44.0;AP;Amapá;Norte;204.6;23.4;183.7;239.1;Normal;Baixo;150;1;risco muito alto
+201;207;1;M;34.0;AM;Amazonas;Norte;141.4;36.8;167.2;181.1;Normal;Moderado;148;2;risco alto
+202;208;1;M;24.0;ES;Espírito Santo;Sudeste;148.1;23.9;171.2;237.9;Normal;Moderado;124;2;risco alto
+203;209;1;M;62.0;CE;Ceará;Nordeste;174.6;26.3;141.9;201.2;Normal;Baixo;114;2;risco alto
+204;210;1;M;60.0;AC;Acre;Norte;179.8;26.4;195.9;225.6;Alto;Moderado;93;1;risco muito alto
+205;211;0;F;50.0;AC;Acre;Norte;88.5;34.1;94.0;141.6;Normal;Baixo;137;0;risco intermediário
+206;212;1;M;31.0;SP;São Paulo;Sudeste;113.3;39.2;75.4;138.6;Normal;Baixo;94;0;risco intermediário
+207;213;1;M;77.0;RO;Rondônia;Norte;197.8;18.2;198.1;246.9;Normal;Moderado;144;1;risco muito alto
+208;214;1;M;72.0;MS;Mato Grosso do Sul;Centro-Oeste;180.9;20.1;181.9;230.2;Normal;Moderado;170;1;risco muito alto
+209;215;0;F;72.0;MT;Mato Grosso;Centro-Oeste;118.2;24.2;150.4;198.7;Normal;Alto;119;2;risco alto
+210;216;0;F;23.0;GO;Goiás;Centro-Oeste;114.5;37.9;160.7;200.4;Normal;Baixo;100;2;risco alto
+211;217;1;M;47.0;AP;Amapá;Norte;156.1;37.9;186.2;228.1;Normal;Baixo;167;1;risco muito alto
+212;218;0;F;62.0;GO;Goiás;Centro-Oeste;163.6;29.4;182.1;228.2;Normal;Baixo;91;1;risco muito alto
+213;219;1;M;45.0;AP;Amapá;Norte;150.9;33.5;168.3;193.22;Normal;Baixo;142;2;risco alto
+214;220;1;M;38.0;SP;São Paulo;Sudeste;121.5;39.3;135.8;167.9;Normal;Baixo;153;2;risco alto
+215;221;1;M;44.0;DF;Distrito Federal;Centro-Oeste;121.3;23.5;123.9;148.0;Alto;Baixo;164;0;risco intermediário
+216;222;0;F;23.0;PR;Paraná;Sul;114.5;30.8;95.1;135.5;Normal;Moderado;159;0;risco intermediário
+217;223;1;M;46.0;AP;Amapá;Norte;161.2;37.2;111.5;225.4;Normal;Baixo;134;0;risco intermediário
+218;224;1;M;77.0;RN;Rio Grande do Norte;Nordeste;126.6;20.1;136.2;172.1;Alto;Moderado;112;2;risco alto
+219;225;0;F;29.0;TO;Tocantins;Norte;118.5;31.6;77.2;149.3;Alto;Baixo;123;0;risco intermediário
+220;226;1;M;42.0;AP;Amapá;Norte;163.7;19.5;162.8;188.8;Normal;Moderado;145;2;risco alto
+221;227;0;F;61.0;DF;Distrito Federal;Centro-Oeste;172.3;36.8;142.2;212.2;Normal;Baixo;117;2;risco alto
+222;228;1;M;24.0;SE;Sergipe;Nordeste;183.8;30.7;117.7;219.3;Normal;Moderado;162;2;risco alto
+223;229;0;F;23.0;RR;Roraima;Norte;195.8;19.7;130.5;216.6;Normal;Baixo;116;2;risco alto
+224;230;1;M;48.0;DF;Distrito Federal;Centro-Oeste;177.7;30.6;190.6;207.0;Alto;Baixo;108;1;risco muito alto
+225;231;1;M;32.0;BA;Bahia;Nordeste;185.4;28.2;252.6;255.2;Normal;Baixo;155;1;risco muito alto
+226;232;1;M;23.0;RR;Roraima;Norte;154.8;32.0;140.4;211.1;Normal;Alto;99;2;risco alto
+227;233;0;F;55.0;AL;Alagoas;Nordeste;169.0;38.0;181.9;222.9;Alto;Alto;97;1;risco muito alto
+228;234;1;M;44.0;AP;Amapá;Norte;193.7;18.2;189.4;232.1;Normal;Baixo;126;1;risco muito alto
+229;235;0;F;56.0;RN;Rio Grande do Norte;Nordeste;135.8;32.1;131.6;196.7;Normal;Baixo;157;2;risco alto
+230;236;0;F;43.0;PR;Paraná;Sul;163.3;39.6;160.6;216.9;Alto;Alto;154;2;risco alto
+231;237;0;F;68.0;RS;Rio Grande do Sul;Sul;114.2;32.3;183.7;181.6;Normal;Alto;169;2;risco alto
+232;238;1;M;31.0;AL;Alagoas;Nordeste;171.1;24.6;146.8;243.9;Normal;Baixo;92;2;risco alto
+233;239;1;M;59.0;RO;Rondônia;Norte;160.9;37.0;139.3;157.9;Normal;Baixo;122;2;risco alto
+234;240;0;F;64.0;PR;Paraná;Sul;130.3;24.5;167.8;166.8;Normal;Baixo;143;2;risco alto
+235;241;1;M;79.0;RS;Rio Grande do Sul;Sul;129.0;37.1;150.6;179.7;Normal;Baixo;104;2;risco alto
+236;242;1;M;70.0;SP;São Paulo;Sudeste;171.1;38.1;165.8;254.8;Normal;Baixo;109;2;risco alto
+237;243;1;M;38.0;BA;Bahia;Nordeste;152.2;36.9;139.2;215.1;Normal;Baixo;101;2;risco alto
+238;244;0;F;24.0;SE;Sergipe;Nordeste;152.1;19.8;187.2;158.0;Alto;Moderado;165;1;risco muito alto
+239;245;0;F;73.0;RO;Rondônia;Norte;122.7;25.1;144.9;187.3;Normal;Moderado;95;2;risco alto
+240;246;0;F;21.0;PA;Pará;Norte;106.8;38.1;85.7;113.1;Normal;Moderado;96;0;risco intermediário
+241;247;0;F;78.0;MT;Mato Grosso;Centro-Oeste;128.1;29.9;160.9;204.1;Alto;Baixo;151;2;risco alto
+242;248;0;F;38.0;AC;Acre;Norte;141.7;28.1;76.6;143.4;Normal;Baixo;159;0;risco intermediário
+243;249;1;M;32.0;RO;Rondônia;Norte;158.1;38.8;109.9;158.5;Normal;Baixo;165;0;risco intermediário
+244;250;1;M;26.0;AP;Amapá;Norte;147.1;26.4;132.7;189.7;Alto;Baixo;151;2;risco alto
+245;251;0;F;78.0;DF;Distrito Federal;Centro-Oeste;166.5;18.5;176.4;198.5;Alto;Moderado;151;1;risco muito alto
+246;252;1;M;19.0;MT;Mato Grosso;Centro-Oeste;162.4;22.5;130.1;185.7;Normal;Moderado;107;2;risco alto
+247;253;0;F;51.0;MS;Mato Grosso do Sul;Centro-Oeste;167.5;36.2;136.9;211.4;Normal;Moderado;110;2;risco alto
+248;254;1;M;74.0;PA;Pará;Norte;139.8;18.7;95.5;162.8;Normal;Baixo;126;0;risco intermediário
+249;255;0;F;38.0;BA;Bahia;Nordeste;129.7;24.6;149.0;183.1;Normal;Moderado;147;2;risco alto
+250;256;1;M;67.0;SP;São Paulo;Sudeste;174.1;33.2;111.0;190.1;Normal;Baixo;143;0;risco intermediário
+251;257;0;F;49.0;MT;Mato Grosso;Centro-Oeste;184.8;19.0;150.4;229.7;Alto;Baixo;134;2;risco alto
+252;258;1;M;73.0;BA;Bahia;Nordeste;166.9;35.0;140.5;179.9;Alto;Baixo;136;2;risco alto
+253;259;1;M;46.0;MG;Minas Gerais;Sudeste;141.4;18.8;138.2;181.3;Normal;Baixo;164;2;risco alto
+254;260;0;F;66.0;GO;Goiás;Centro-Oeste;170.6;24.5;162.0;191.4;Normal;Baixo;130;2;risco alto
+255;261;1;M;54.0;PE;Pernambuco;Nordeste;200.1;30.0;151.9;204.1;Normal;Baixo;160;2;risco alto
+256;262;1;M;60.0;RO;Rondônia;Norte;143.3;26.7;130.3;184.7;Normal;Baixo;144;2;risco alto
+257;263;1;M;75.0;PI;Piauí;Nordeste;119.1;34.2;133.0;163.3;Normal;Alto;116;0;risco intermediário
+258;264;1;M;37.0;SP;São Paulo;Sudeste;149.6;38.7;136.4;219.4;Alto;Alto;125;2;risco alto
+259;265;1;M;51.0;RO;Rondônia;Norte;152.7;38.8;139.0;167.5;Normal;Moderado;113;2;risco alto
+260;266;0;F;67.0;SC;Santa Catarina;Sul;113.8;30.4;122.6;96.4;Normal;Baixo;122;0;risco intermediário
+261;267;0;F;24.0;AP;Amapá;Norte;124.3;20.1;127.6;148.2;Normal;Alto;129;0;risco intermediário
+262;268;1;M;79.0;RO;Rondônia;Norte;155.3;39.4;171.7;238.3;Normal;Baixo;90;2;risco alto
+263;269;0;F;19.0;DF;Distrito Federal;Centro-Oeste;159.0;20.7;135.7;205.1;Normal;Moderado;153;2;risco alto
+264;270;0;F;22.0;MA;Maranhão;Nordeste;125.4;20.4;161.4;201.4;Normal;Alto;116;2;risco alto
+265;271;1;M;34.0;GO;Goiás;Centro-Oeste;160.2;35.2;221.1;260.9;Alto;Baixo;113;1;risco muito alto
+266;272;0;F;34.0;RR;Roraima;Norte;137.1;32.8;184.2;176.3;Normal;Baixo;131;1;risco muito alto
+267;273;0;F;74.0;PA;Pará;Norte;141.0;23.3;156.7;187.2;Normal;Moderado;128;2;risco alto
+268;274;0;F;46.0;RJ;Rio de Janeiro;Sudeste;111.8;25.9;94.8;137.9;Alto;Baixo;107;0;risco intermediário
+269;275;0;F;18.0;MA;Maranhão;Nordeste;166.5;30.6;121.3;223.5;Normal;Baixo;90;2;risco alto
+270;276;0;F;70.0;DF;Distrito Federal;Centro-Oeste;171.3;27.0;249.3;201.3;Alto;Moderado;131;1;risco muito alto
+271;277;1;M;25.0;BA;Bahia;Nordeste;154.8;27.5;130.7;175.4;Normal;Baixo;122;2;risco alto
+272;278;0;F;18.0;AM;Amazonas;Norte;172.0;20.3;134.1;211.0;Normal;Baixo;162;2;risco alto
+273;279;0;F;45.0;MT;Mato Grosso;Centro-Oeste;155.9;31.1;157.3;209.5;Alto;Moderado;104;2;risco alto
+274;280;1;M;76.0;PB;Paraíba;Nordeste;180.1;19.8;164.0;210.9;Alto;Alto;148;2;risco alto
+275;281;1;M;59.0;AP;Amapá;Norte;130.8;34.5;123.8;207.3;Alto;Baixo;156;0;risco intermediário
+276;282;0;F;23.0;CE;Ceará;Nordeste;165.5;36.7;190.1;195.5;Normal;Baixo;131;1;risco muito alto
+277;283;1;M;19.0;PR;Paraná;Sul;178.3;36.2;110.3;181.5;Normal;Baixo;169;0;risco intermediário
+278;284;0;F;67.0;AC;Acre;Norte;125.4;18.5;155.1;207.0;Normal;Baixo;144;2;risco alto
+279;285;1;M;63.0;MS;Mato Grosso do Sul;Centro-Oeste;204.3;29.4;164.6;240.1;Normal;Baixo;118;1;risco muito alto
+280;286;0;F;54.0;AM;Amazonas;Norte;99.6;29.6;58.8;162.1;Normal;Baixo;101;0;risco intermediário
+281;287;0;F;40.0;SP;São Paulo;Sudeste;108.2;28.6;176.2;187.5;Normal;Baixo;99;2;risco alto
+282;288;1;M;19.0;ES;Espírito Santo;Sudeste;142.4;25.4;130.4;199.0;Normal;Moderado;101;2;risco alto
+283;289;0;F;45.0;CE;Ceará;Nordeste;171.3;37.0;111.9;214.2;Normal;Baixo;146;0;risco intermediário
+284;290;1;M;43.0;PR;Paraná;Sul;167.3;26.3;138.7;193.4;Alto;Baixo;158;2;risco alto
+285;291;1;M;31.0;SC;Santa Catarina;Sul;157.2;21.8;85.5;184.2;Alto;Moderado;99;0;risco intermediário
+286;292;1;M;58.0;SC;Santa Catarina;Sul;156.0;19.5;169.5;227.1;Alto;Baixo;123;2;risco alto
+287;293;1;M;49.0;PR;Paraná;Sul;149.5;37.3;84.2;228.5;Normal;Moderado;154;0;risco intermediário
+288;294;0;F;69.0;RS;Rio Grande do Sul;Sul;140.7;22.8;122.9;174.1;Normal;Moderado;161;0;risco intermediário
+289;295;1;M;46.0;PI;Piauí;Nordeste;173.8;18.7;119.3;222.1;Alto;Moderado;166;2;risco alto
+290;296;0;F;80.0;ES;Espírito Santo;Sudeste;170.0;24.1;207.3;248.0;Normal;Alto;130;1;risco muito alto
+291;297;0;F;80.0;CE;Ceará;Nordeste;145.3;38.5;195.2;188.7;Alto;Alto;151;1;risco muito alto
+292;298;0;F;27.0;RS;Rio Grande do Sul;Sul;139.3;29.3;182.6;170.1;Normal;Baixo;116;1;risco muito alto
+293;299;1;M;77.0;MA;Maranhão;Nordeste;166.1;34.3;180.2;167.0;Alto;Moderado;115;1;risco muito alto
+294;300;0;F;61.0;TO;Tocantins;Norte;144.6;35.6;159.6;206.5;Normal;Baixo;91;2;risco alto
+295;301;0;F;43.0;MS;Mato Grosso do Sul;Centro-Oeste;132.4;24.3;60.2;120.5;Normal;Baixo;94;0;risco intermediário
+296;302;1;M;22.0;AP;Amapá;Norte;172.5;29.2;121.7;215.8;Normal;Baixo;146;2;risco alto
+297;303;1;M;35.0;GO;Goiás;Centro-Oeste;161.7;28.5;115.1;161.9;Normal;Alto;119;0;risco intermediário
+298;304;0;F;46.0;SP;São Paulo;Sudeste;167.0;18.3;236.9;229.9;Normal;Moderado;147;1;risco muito alto
+299;305;1;M;53.0;RN;Rio Grande do Norte;Nordeste;165.3;29.8;136.6;200.5;Normal;Moderado;110;2;risco alto
+300;306;1;M;73.0;MS;Mato Grosso do Sul;Centro-Oeste;212.6;30.1;193.0;251.2;Alto;Moderado;90;1;risco muito alto
+301;307;1;M;46.0;SP;São Paulo;Sudeste;140.2;22.9;85.3;192.3;Normal;Moderado;129;0;risco intermediário
+302;308;0;F;19.0;PB;Paraíba;Nordeste;192.3;31.2;151.5;211.4;Alto;Baixo;150;2;risco alto
+303;309;0;F;78.0;DF;Distrito Federal;Centro-Oeste;151.6;33.0;115.7;190.7;Normal;Baixo;156;0;risco intermediário
+304;310;0;F;51.0;TO;Tocantins;Norte;105.0;19.7;157.4;186.1;Alto;Baixo;110;2;risco alto
+305;311;1;M;43.0;AM;Amazonas;Norte;151.5;23.5;168.4;216.7;Alto;Baixo;164;2;risco alto
+306;312;0;F;73.0;PE;Pernambuco;Nordeste;154.6;21.9;85.1;150.9;Normal;Alto;115;0;risco intermediário
+307;313;0;F;56.0;MS;Mato Grosso do Sul;Centro-Oeste;139.5;38.8;146.7;193.1;Normal;Moderado;131;2;risco alto
+308;314;1;M;56.0;MT;Mato Grosso;Centro-Oeste;221.2;25.2;234.7;238.1;Normal;Baixo;158;1;risco muito alto
+309;315;1;M;53.0;RO;Rondônia;Norte;94.7;25.5;112.9;138.8;Normal;Moderado;159;0;risco intermediário
+310;316;1;M;69.0;MS;Mato Grosso do Sul;Centro-Oeste;161.9;27.3;147.9;172.6;Normal;Moderado;167;2;risco alto
+311;317;0;F;49.0;PE;Pernambuco;Nordeste;153.1;25.1;100.3;157.7;Normal;Moderado;102;0;risco intermediário
+312;318;0;F;70.0;RN;Rio Grande do Norte;Nordeste;140.2;21.9;116.5;168.6;Normal;Baixo;146;0;risco intermediário
+313;319;0;F;77.0;AM;Amazonas;Norte;172.5;25.3;156.7;244.1;Normal;Baixo;127;2;risco alto
+314;320;0;F;79.0;ES;Espírito Santo;Sudeste;169.1;35.4;190.3;276.5;Normal;Baixo;166;1;risco muito alto
+315;321;1;M;39.0;RR;Roraima;Norte;137.4;26.2;102.6;148.5;Normal;Baixo;99;0;risco intermediário
+316;322;0;F;53.0;AP;Amapá;Norte;178.7;35.2;96.2;198.7;Normal;Moderado;130;0;risco intermediário
+317;323;1;M;32.0;AM;Amazonas;Norte;166.4;27.0;144.3;200.7;Normal;Moderado;106;2;risco alto
+318;324;1;M;64.0;GO;Goiás;Centro-Oeste;150.3;34.9;189.4;191.3;Normal;Moderado;120;1;risco muito alto
+319;325;0;F;80.0;MT;Mato Grosso;Centro-Oeste;168.4;36.4;135.8;155.4;Normal;Moderado;107;2;risco alto
+320;326;0;F;27.0;AL;Alagoas;Nordeste;139.5;29.9;110.3;154.9;Normal;Baixo;163;0;risco intermediário
+321;327;0;F;67.0;AL;Alagoas;Nordeste;123.6;25.3;128.8;155.0;Alto;Moderado;133;0;risco intermediário
+322;328;0;F;53.0;MA;Maranhão;Nordeste;166.0;34.4;118.1;170.9;Normal;Baixo;99;2;risco alto
+323;329;0;F;66.0;RJ;Rio de Janeiro;Sudeste;153.6;22.2;112.2;187.9;Normal;Baixo;101;0;risco intermediário
+324;330;1;M;55.0;PI;Piauí;Nordeste;179.2;30.6;156.4;223.9;Normal;Moderado;165;2;risco alto
+325;331;1;M;44.0;MA;Maranhão;Nordeste;131.7;27.1;170.3;187.8;Normal;Baixo;121;2;risco alto
+326;332;1;M;25.0;PB;Paraíba;Nordeste;177.7;26.8;116.2;186.8;Normal;Moderado;146;2;risco alto
+327;333;0;F;30.0;AP;Amapá;Norte;196.0;20.0;183.7;198.7;Alto;Alto;160;1;risco muito alto
+328;334;1;M;36.0;GO;Goiás;Centro-Oeste;163.3;36.4;139.1;179.0;Normal;Baixo;160;2;risco alto
+329;335;0;F;29.0;TO;Tocantins;Norte;181.7;33.3;193.5;222.7;Alto;Baixo;146;1;risco muito alto
+330;336;1;M;60.0;MT;Mato Grosso;Centro-Oeste;143.8;28.7;153.7;217.7;Alto;Baixo;122;2;risco alto
+331;337;1;M;75.0;CE;Ceará;Nordeste;130.0;38.9;100.1;177.8;Alto;Baixo;101;0;risco intermediário
+332;338;0;F;48.0;RO;Rondônia;Norte;134.8;24.8;205.1;256.4;Normal;Moderado;106;1;risco muito alto
+333;339;0;F;72.0;AL;Alagoas;Nordeste;208.9;32.1;232.6;234.8;Normal;Baixo;119;1;risco muito alto
+334;340;0;F;49.0;RR;Roraima;Norte;144.8;38.1;166.8;193.0;Normal;Baixo;95;2;risco alto
+335;341;0;F;27.0;RO;Rondônia;Norte;172.5;38.5;211.8;204.0;Normal;Baixo;104;1;risco muito alto
+336;342;0;F;59.0;PB;Paraíba;Nordeste;121.9;23.3;158.8;189.4;Normal;Moderado;142;2;risco alto
+337;343;0;F;54.0;PA;Pará;Norte;164.7;35.4;153.0;212.0;Normal;Alto;169;2;risco alto
+338;344;1;M;18.0;PE;Pernambuco;Nordeste;163.9;37.9;151.9;242.3;Normal;Baixo;110;2;risco alto
+339;345;0;F;47.0;AL;Alagoas;Nordeste;183.2;33.3;149.6;195.8;Normal;Moderado;144;2;risco alto
+340;346;0;F;42.0;PR;Paraná;Sul;123.3;32.2;151.2;208.9;Alto;Moderado;166;2;risco alto
+341;347;1;M;45.0;RJ;Rio de Janeiro;Sudeste;134.0;36.6;201.1;188.7;Alto;Moderado;114;1;risco muito alto
+342;348;1;M;49.0;PB;Paraíba;Nordeste;202.7;38.5;192.6;240.0;Normal;Baixo;168;1;risco muito alto
+343;349;0;F;48.0;GO;Goiás;Centro-Oeste;112.2;37.6;151.3;185.8;Normal;Baixo;111;2;risco alto
+344;350;1;M;29.0;SC;Santa Catarina;Sul;102.0;40.0;163.8;172.4;Normal;Moderado;159;2;risco alto
+345;351;0;F;22.0;DF;Distrito Federal;Centro-Oeste;172.8;34.5;91.6;140.1;Normal;Baixo;154;0;risco intermediário
+346;352;1;M;28.0;SE;Sergipe;Nordeste;176.6;19.0;96.6;184.8;Normal;Alto;107;0;risco intermediário
+347;353;1;M;25.0;MA;Maranhão;Nordeste;115.9;32.6;151.2;164.7;Normal;Baixo;104;2;risco alto
+348;354;1;M;65.0;CE;Ceará;Nordeste;206.1;33.1;163.9;213.7;Alto;Baixo;151;1;risco muito alto
+349;355;1;M;67.0;AP;Amapá;Norte;122.2;36.5;71.7;177.8;Normal;Baixo;111;0;risco intermediário
+350;356;1;M;68.0;SE;Sergipe;Nordeste;158.4;28.9;212.3;204.9;Normal;Alto;152;1;risco muito alto
+351;357;1;M;51.0;MS;Mato Grosso do Sul;Centro-Oeste;155.0;21.3;117.7;169.4;Normal;Baixo;142;0;risco intermediário
+352;358;0;F;72.0;SE;Sergipe;Nordeste;125.1;26.6;156.7;176.2;Normal;Moderado;124;2;risco alto
+353;359;1;M;43.0;RJ;Rio de Janeiro;Sudeste;133.3;38.3;102.9;135.2;Normal;Moderado;90;0;risco intermediário
+354;360;1;M;49.0;AC;Acre;Norte;134.6;39.1;154.9;202.2;Normal;Baixo;145;2;risco alto
+355;361;1;M;38.0;AM;Amazonas;Norte;173.6;36.2;92.9;213.0;Normal;Baixo;140;0;risco intermediário
+356;362;0;F;67.0;SC;Santa Catarina;Sul;181.9;19.6;215.2;187.0;Normal;Moderado;125;1;risco muito alto
+357;363;1;M;21.0;SE;Sergipe;Nordeste;125.2;34.2;85.3;120.1;Normal;Moderado;157;0;risco intermediário
+358;364;0;F;62.0;PI;Piauí;Nordeste;150.7;23.7;132.8;205.2;Normal;Baixo;165;2;risco alto
+359;365;1;M;78.0;PI;Piauí;Nordeste;136.6;18.7;199.0;232.4;Alto;Baixo;132;1;risco muito alto
+360;366;1;M;59.0;RS;Rio Grande do Sul;Sul;137.1;21.5;168.3;212.6;Normal;Moderado;161;2;risco alto
+361;367;1;M;77.0;RR;Roraima;Norte;161.3;24.6;177.6;185.7;Normal;Alto;161;1;risco muito alto
+362;368;0;F;80.0;AL;Alagoas;Nordeste;120.3;30.9;168.7;160.4;Normal;Baixo;165;2;risco alto
+363;369;0;F;57.0;TO;Tocantins;Norte;170.4;34.0;166.0;212.8;Alto;Alto;155;2;risco alto
+364;370;0;F;62.0;DF;Distrito Federal;Centro-Oeste;161.3;29.0;162.2;192.3;Normal;Moderado;164;2;risco alto
+365;371;1;M;64.0;DF;Distrito Federal;Centro-Oeste;142.6;18.3;138.2;184.5;Normal;Baixo;109;2;risco alto
+366;372;1;M;41.0;PA;Pará;Norte;136.0;35.7;117.0;171.1;Normal;Baixo;152;0;risco intermediário
+367;373;0;F;24.0;PB;Paraíba;Nordeste;146.6;26.2;153.4;196.6;Normal;Baixo;162;2;risco alto
+368;374;0;F;32.0;MG;Minas Gerais;Sudeste;198.2;31.8;132.8;246.0;Normal;Moderado;126;2;risco alto
+369;375;0;F;57.0;GO;Goiás;Centro-Oeste;155.6;34.3;116.0;196.7;Normal;Alto;131;0;risco intermediário
+370;376;0;F;74.0;AC;Acre;Norte;142.5;25.3;138.4;166.5;Alto;Moderado;144;2;risco alto
+371;377;1;M;65.0;PR;Paraná;Sul;163.1;38.7;113.7;194.8;Normal;Baixo;127;0;risco intermediário
+372;378;1;M;41.0;SP;São Paulo;Sudeste;175.4;32.1;162.6;193.3;Normal;Baixo;158;2;risco alto
+373;379;0;F;45.0;AM;Amazonas;Norte;106.3;30.8;139.3;156.7;Normal;Moderado;146;0;risco intermediário
+374;380;0;F;24.0;RR;Roraima;Norte;106.3;28.3;133.3;174.3;Normal;Baixo;133;0;risco intermediário
+375;381;1;M;56.0;AP;Amapá;Norte;127.0;25.4;98.5;128.0;Normal;Baixo;152;0;risco intermediário
+376;382;1;M;57.0;MA;Maranhão;Nordeste;234.4;35.2;198.8;261.4;Normal;Alto;104;1;risco muito alto
+377;383;0;F;53.0;MT;Mato Grosso;Centro-Oeste;163.8;27.4;128.4;156.4;Normal;Baixo;109;2;risco alto
+378;384;1;M;26.0;PI;Piauí;Nordeste;162.6;35.5;150.6;175.6;Normal;Moderado;133;2;risco alto
+379;385;1;M;49.0;SP;São Paulo;Sudeste;135.4;37.7;180.3;178.8;Normal;Baixo;148;2;risco alto
+380;386;1;M;34.0;BA;Bahia;Nordeste;165.0;26.7;232.7;218.0;Normal;Baixo;129;1;risco muito alto
+381;387;0;F;70.0;RN;Rio Grande do Norte;Nordeste;164.4;32.4;128.8;186.1;Normal;Baixo;140;2;risco alto
+382;388;1;M;28.0;SP;São Paulo;Sudeste;127.0;27.9;85.3;152.9;Alto;Baixo;135;0;risco intermediário
+383;389;1;M;39.0;ES;Espírito Santo;Sudeste;134.7;35.6;190.9;204.1;Normal;Baixo;161;1;risco muito alto
+384;390;0;F;24.0;BA;Bahia;Nordeste;144.3;23.4;146.3;184.3;Normal;Baixo;126;2;risco alto
+385;391;1;M;74.0;PB;Paraíba;Nordeste;176.6;33.4;127.7;186.4;Normal;Baixo;105;2;risco alto
+386;392;1;M;36.0;AC;Acre;Norte;129.2;18.2;136.4;167.5;Normal;Baixo;99;2;risco alto
+387;393;0;F;53.0;RR;Roraima;Norte;130.3;26.5;137.7;150.1;Normal;Baixo;146;2;risco alto
+388;394;0;F;76.0;RO;Rondônia;Norte;132.2;38.3;195.8;225.7;Normal;Baixo;96;1;risco muito alto
+389;395;1;M;68.0;RN;Rio Grande do Norte;Nordeste;133.5;18.8;194.9;200.7;Normal;Baixo;113;1;risco muito alto
+390;396;0;F;38.0;RN;Rio Grande do Norte;Nordeste;165.9;33.1;146.3;207.5;Normal;Alto;158;2;risco alto
+391;397;0;F;21.0;AL;Alagoas;Nordeste;119.0;39.2;159.3;182.3;Normal;Baixo;144;2;risco alto
+392;398;0;F;53.0;RO;Rondônia;Norte;160.7;19.8;220.1;202.6;Normal;Moderado;99;1;risco muito alto
+393;399;1;M;25.0;PR;Paraná;Sul;129.8;35.4;166.5;177.6;Normal;Baixo;110;2;risco alto
+394;400;1;M;43.0;PB;Paraíba;Nordeste;145.8;18.5;139.7;194.4;Normal;Baixo;154;2;risco alto
+395;401;1;M;73.0;SE;Sergipe;Nordeste;175.3;35.0;135.4;210.3;Normal;Baixo;146;2;risco alto
+396;402;0;F;55.0;GO;Goiás;Centro-Oeste;104.4;31.0;120.0;193.22;Alto;Baixo;142;0;risco intermediário
+397;403;1;M;33.0;RN;Rio Grande do Norte;Nordeste;122.6;29.9;182.4;170.7;Normal;Baixo;137;2;risco alto
+398;404;0;F;38.0;MG;Minas Gerais;Sudeste;142.5;32.3;139.0;157.7;Normal;Baixo;159;2;risco alto
+399;405;0;F;45.0;RR;Roraima;Norte;148.0;26.9;143.2;151.5;Normal;Baixo;113;2;risco alto
+400;406;1;M;49.0;MS;Mato Grosso do Sul;Centro-Oeste;150.5;27.2;110.9;189.1;Normal;Baixo;120;0;risco intermediário
+401;407;1;M;57.0;PI;Piauí;Nordeste;141.5;26.0;166.0;174.6;Normal;Moderado;170;2;risco alto
+402;408;1;M;41.0;RN;Rio Grande do Norte;Nordeste;178.0;33.8;141.9;207.6;Normal;Baixo;149;2;risco alto
+403;409;0;F;51.0;ES;Espírito Santo;Sudeste;186.0;26.6;139.0;190.0;Normal;Baixo;111;2;risco alto
+404;410;0;F;57.0;TO;Tocantins;Norte;130.9;28.7;117.9;164.6;Normal;Baixo;104;0;risco intermediário
+405;411;1;M;68.0;GO;Goiás;Centro-Oeste;121.1;34.3;194.1;228.0;Normal;Baixo;169;1;risco muito alto
+406;412;1;M;49.0;TO;Tocantins;Norte;150.3;25.5;193.4;247.4;Alto;Baixo;91;1;risco muito alto
+407;413;0;F;57.0;AL;Alagoas;Nordeste;208.1;31.6;214.2;259.2;Normal;Baixo;94;1;risco muito alto
+408;414;1;M;27.0;TO;Tocantins;Norte;144.6;26.6;153.0;226.2;Normal;Moderado;111;2;risco alto
+409;415;0;F;39.0;RO;Rondônia;Norte;111.5;21.4;148.4;153.8;Normal;Moderado;109;2;risco alto
+410;416;0;F;31.0;RJ;Rio de Janeiro;Sudeste;128.1;19.4;172.6;161.3;Normal;Alto;94;2;risco alto
+411;417;0;F;48.0;PB;Paraíba;Nordeste;154.3;30.4;146.9;208.2;Normal;Alto;146;2;risco alto
+412;418;0;F;28.0;RJ;Rio de Janeiro;Sudeste;165.1;29.2;178.0;221.5;Normal;Baixo;135;1;risco muito alto
+413;419;0;F;63.0;SC;Santa Catarina;Sul;152.3;30.5;174.5;159.3;Normal;Baixo;96;2;risco alto
+414;420;0;F;55.0;MG;Minas Gerais;Sudeste;131.5;38.4;71.3;155.7;Normal;Baixo;140;0;risco intermediário
+415;421;1;M;79.0;PI;Piauí;Nordeste;140.0;21.7;92.3;153.8;Normal;Moderado;101;0;risco intermediário
+416;422;1;M;39.0;PA;Pará;Norte;108.6;32.1;121.0;141.6;Normal;Baixo;136;0;risco intermediário
+417;423;0;F;25.0;AM;Amazonas;Norte;136.7;22.5;122.9;189.0;Normal;Moderado;154;0;risco intermediário
+418;424;0;F;71.0;AM;Amazonas;Norte;134.3;38.7;149.2;186.4;Normal;Alto;142;2;risco alto
+419;425;0;F;64.0;PB;Paraíba;Nordeste;109.1;19.5;154.7;206.6;Normal;Baixo;116;2;risco alto
+420;426;0;F;59.0;SC;Santa Catarina;Sul;174.4;22.2;144.4;212.0;Alto;Moderado;153;2;risco alto
+421;427;1;M;39.0;PB;Paraíba;Nordeste;168.1;38.4;232.8;229.7;Normal;Baixo;132;1;risco muito alto
+422;428;1;M;49.0;SP;São Paulo;Sudeste;114.3;23.5;83.3;140.5;Alto;Moderado;112;0;risco intermediário
+423;429;0;F;42.0;MA;Maranhão;Nordeste;121.3;33.1;120.9;139.7;Alto;Baixo;168;0;risco intermediário
+424;430;1;M;67.0;BA;Bahia;Nordeste;143.8;29.3;86.3;197.7;Normal;Moderado;103;0;risco intermediário
+425;431;0;F;68.0;PB;Paraíba;Nordeste;165.3;37.7;139.9;235.3;Normal;Baixo;124;2;risco alto
+426;432;0;F;48.0;SE;Sergipe;Nordeste;185.1;31.9;181.1;235.8;Normal;Baixo;140;1;risco muito alto
+427;433;1;M;51.0;ES;Espírito Santo;Sudeste;111.6;33.1;68.9;100.1;Normal;Baixo;127;0;risco intermediário
+428;434;1;M;19.0;DF;Distrito Federal;Centro-Oeste;162.8;39.0;180.5;240.0;Normal;Moderado;165;1;risco muito alto
+429;435;0;F;48.0;PI;Piauí;Nordeste;154.9;35.3;168.3;189.0;Normal;Baixo;123;2;risco alto
+430;436;1;M;74.0;SC;Santa Catarina;Sul;164.6;18.9;179.2;247.6;Normal;Moderado;118;1;risco muito alto
+431;437;1;M;43.0;RR;Roraima;Norte;97.5;37.6;163.5;155.8;Normal;Moderado;147;2;risco alto
+432;438;0;F;25.0;PE;Pernambuco;Nordeste;144.8;22.6;147.1;192.8;Alto;Baixo;99;2;risco alto
+433;439;1;M;53.0;AM;Amazonas;Norte;150.5;29.0;79.9;189.2;Normal;Baixo;154;0;risco intermediário
+434;440;1;M;48.0;MG;Minas Gerais;Sudeste;137.9;23.3;119.9;189.9;Alto;Moderado;96;0;risco intermediário
+435;441;1;M;40.0;SC;Santa Catarina;Sul;116.5;27.0;65.4;137.5;Normal;Baixo;126;0;risco intermediário
+436;442;1;M;35.0;ES;Espírito Santo;Sudeste;149.3;36.2;131.2;183.2;Normal;Baixo;107;2;risco alto
+437;443;1;M;28.0;SC;Santa Catarina;Sul;75.5;26.9;143.3;122.5;Normal;Baixo;100;0;risco intermediário
+438;444;0;F;77.0;MT;Mato Grosso;Centro-Oeste;171.2;36.6;136.8;181.5;Normal;Moderado;163;2;risco alto
+439;445;0;F;32.0;DF;Distrito Federal;Centro-Oeste;118.2;37.8;49.2;133.8;Normal;Moderado;139;0;risco intermediário
+440;446;1;M;68.0;RJ;Rio de Janeiro;Sudeste;135.1;35.9;175.7;184.0;Alto;Moderado;126;2;risco alto
+441;447;0;F;67.0;MT;Mato Grosso;Centro-Oeste;142.1;35.1;157.9;195.8;Normal;Baixo;119;2;risco alto
+442;448;0;F;55.0;MG;Minas Gerais;Sudeste;101.8;23.5;142.6;172.0;Normal;Moderado;156;0;risco intermediário
+443;449;0;F;52.0;RJ;Rio de Janeiro;Sudeste;114.5;34.5;202.4;213.4;Normal;Moderado;114;1;risco muito alto
+444;450;1;M;22.0;MA;Maranhão;Nordeste;135.9;38.5;230.3;186.0;Normal;Baixo;122;1;risco muito alto
+445;451;1;M;28.0;GO;Goiás;Centro-Oeste;150.2;21.9;147.7;191.0;Alto;Moderado;162;2;risco alto
+446;452;0;F;45.0;DF;Distrito Federal;Centro-Oeste;159.4;34.8;133.7;201.3;Normal;Baixo;94;2;risco alto
+447;453;0;F;29.0;RR;Roraima;Norte;161.9;39.9;206.3;243.5;Normal;Baixo;143;1;risco muito alto
+448;454;0;F;66.0;RO;Rondônia;Norte;124.5;38.3;188.1;236.7;Normal;Baixo;115;1;risco muito alto
+449;455;1;M;74.0;SP;São Paulo;Sudeste;120.2;30.2;102.5;110.6;Normal;Moderado;157;0;risco intermediário
+450;456;0;F;50.0;PB;Paraíba;Nordeste;157.9;38.1;184.7;216.6;Alto;Baixo;170;1;risco muito alto
+451;457;0;F;29.0;RO;Rondônia;Norte;178.3;27.7;175.0;227.6;Normal;Baixo;115;1;risco muito alto
+452;458;1;M;30.0;MG;Minas Gerais;Sudeste;167.6;37.4;160.4;216.3;Normal;Baixo;113;2;risco alto
+453;459;1;M;64.0;MT;Mato Grosso;Centro-Oeste;193.8;31.1;194.8;240.2;Normal;Baixo;164;1;risco muito alto
+454;460;1;M;18.0;SP;São Paulo;Sudeste;188.0;27.3;121.8;191.9;Normal;Baixo;147;2;risco alto
+455;461;0;F;42.0;AC;Acre;Norte;138.1;27.4;172.4;198.1;Normal;Moderado;128;2;risco alto
+456;462;0;F;72.0;CE;Ceará;Nordeste;179.4;23.2;151.7;235.4;Normal;Moderado;110;2;risco alto
+457;463;0;F;64.0;PI;Piauí;Nordeste;136.5;24.0;169.9;157.0;Normal;Alto;91;2;risco alto
+458;464;0;F;57.0;RS;Rio Grande do Sul;Sul;149.1;20.4;137.4;194.4;Alto;Baixo;106;2;risco alto
+459;465;0;F;21.0;MG;Minas Gerais;Sudeste;140.8;22.6;180.8;192.9;Normal;Alto;159;1;risco muito alto
+460;466;1;M;64.0;PR;Paraná;Sul;137.2;21.5;139.7;198.9;Normal;Alto;142;2;risco alto
+461;467;1;M;44.0;DF;Distrito Federal;Centro-Oeste;173.9;23.6;98.5;169.7;Alto;Alto;123;0;risco intermediário
+462;468;1;M;79.0;PR;Paraná;Sul;120.4;18.0;139.0;166.2;Normal;Baixo;91;2;risco alto
+463;469;1;M;49.0;PA;Pará;Norte;133.9;30.3;138.3;232.1;Normal;Baixo;136;2;risco alto
+464;470;0;F;56.0;CE;Ceará;Nordeste;173.5;37.1;151.2;212.7;Alto;Moderado;109;2;risco alto
+465;471;1;M;26.0;GO;Goiás;Centro-Oeste;187.2;30.8;197.1;236.3;Normal;Baixo;169;1;risco muito alto
+466;472;0;F;48.0;AP;Amapá;Norte;151.2;24.7;154.5;210.2;Normal;Moderado;143;2;risco alto
+467;473;1;M;59.0;AM;Amazonas;Norte;110.9;27.2;89.3;122.5;Normal;Baixo;140;0;risco intermediário
+468;474;1;M;45.0;MG;Minas Gerais;Sudeste;175.5;21.3;114.2;184.2;Normal;Alto;125;2;risco alto
+469;475;0;F;49.0;SE;Sergipe;Nordeste;137.4;19.5;164.6;139.1;Normal;Baixo;108;2;risco alto
+470;476;0;F;45.0;PI;Piauí;Nordeste;135.8;39.4;168.4;183.6;Normal;Baixo;152;2;risco alto
+471;477;1;M;69.0;PI;Piauí;Nordeste;112.7;36.8;178.2;162.5;Normal;Moderado;99;2;risco alto
+472;478;0;F;70.0;RR;Roraima;Norte;113.5;38.7;117.7;175.5;Normal;Baixo;168;0;risco intermediário
+473;479;0;F;51.0;PA;Pará;Norte;165.9;21.8;152.9;183.9;Normal;Moderado;132;2;risco alto
+474;480;0;F;47.0;AL;Alagoas;Nordeste;148.1;38.1;150.5;187.4;Normal;Baixo;123;2;risco alto
+475;481;0;F;59.0;AM;Amazonas;Norte;184.3;29.9;199.0;219.3;Normal;Baixo;99;1;risco muito alto
+476;482;1;M;19.0;ES;Espírito Santo;Sudeste;142.7;37.5;153.9;217.3;Normal;Alto;110;2;risco alto
+477;483;0;F;24.0;RN;Rio Grande do Norte;Nordeste;135.7;39.0;137.6;147.0;Normal;Moderado;107;2;risco alto
+478;484;1;M;34.0;MS;Mato Grosso do Sul;Centro-Oeste;137.8;38.7;74.9;173.3;Normal;Baixo;108;0;risco intermediário
+479;485;0;F;60.0;AM;Amazonas;Norte;140.7;24.2;167.8;223.4;Normal;Baixo;155;2;risco alto
+480;486;0;F;80.0;PE;Pernambuco;Nordeste;156.9;24.3;173.2;197.9;Alto;Alto;135;2;risco alto
+481;487;0;F;21.0;PE;Pernambuco;Nordeste;209.5;35.0;185.9;258.4;Alto;Baixo;167;1;risco muito alto
+482;488;0;F;47.0;DF;Distrito Federal;Centro-Oeste;145.9;28.8;169.9;223.9;Alto;Baixo;139;2;risco alto
+483;489;0;F;30.0;AM;Amazonas;Norte;169.1;24.7;165.7;167.2;Normal;Moderado;132;2;risco alto
+484;490;0;F;63.0;AM;Amazonas;Norte;162.8;24.6;108.9;183.4;Normal;Moderado;120;0;risco intermediário
+485;491;0;F;58.0;GO;Goiás;Centro-Oeste;189.1;28.9;158.9;205.1;Normal;Baixo;164;2;risco alto
+486;492;0;F;42.0;SE;Sergipe;Nordeste;172.5;32.3;97.4;195.4;Normal;Baixo;161;0;risco intermediário
+487;493;0;F;42.0;SE;Sergipe;Nordeste;121.7;34.1;165.4;257.6;Normal;Baixo;141;2;risco alto
+488;494;0;F;23.0;CE;Ceará;Nordeste;120.8;27.0;133.8;170.0;Normal;Moderado;103;0;risco intermediário
+489;495;1;M;65.0;RR;Roraima;Norte;173.6;25.4;140.8;214.7;Normal;Baixo;99;2;risco alto
+490;496;1;M;53.0;RN;Rio Grande do Norte;Nordeste;137.3;38.1;167.4;196.5;Normal;Moderado;100;2;risco alto
+491;497;0;F;69.0;AC;Acre;Norte;166.9;27.6;171.2;201.0;Alto;Baixo;124;1;risco muito alto
+492;498;1;M;32.0;MA;Maranhão;Nordeste;130.7;20.9;105.7;167.4;Normal;Alto;137;0;risco intermediário
+493;499;1;M;77.0;PB;Paraíba;Nordeste;210.7;18.1;222.9;267.2;Normal;Moderado;115;1;risco muito alto
+494;500;0;F;39.0;SE;Sergipe;Nordeste;188.6;37.6;171.7;211.4;Normal;Baixo;141;1;risco muito alto
+495;501;0;F;58.0;AC;Acre;Norte;127.4;23.5;110.4;181.0;Normal;Moderado;139;0;risco intermediário
+496;502;1;M;45.0;GO;Goiás;Centro-Oeste;163.6;39.6;117.4;158.4;Normal;Baixo;126;0;risco intermediário
+497;503;0;F;25.0;AC;Acre;Norte;167.7;34.6;140.1;222.2;Alto;Baixo;125;2;risco alto
+498;504;1;M;28.0;MT;Mato Grosso;Centro-Oeste;99.0;19.3;122.0;154.9;Normal;Baixo;147;0;risco intermediário
+499;505;0;F;53.0;TO;Tocantins;Norte;120.4;33.0;146.1;199.7;Alto;Baixo;152;2;risco alto
+500;506;1;M;53.0;BA;Bahia;Nordeste;153.2;30.0;141.8;213.3;Alto;Moderado;122;2;risco alto
+501;507;1;M;52.0;ES;Espírito Santo;Sudeste;177.0;31.2;122.9;216.4;Normal;Baixo;165;2;risco alto
+502;508;0;F;51.0;PI;Piauí;Nordeste;166.7;21.1;185.1;223.2;Normal;Baixo;124;1;risco muito alto
+503;509;1;M;39.0;DF;Distrito Federal;Centro-Oeste;124.6;31.9;108.2;164.8;Normal;Alto;142;0;risco intermediário
+504;510;0;F;19.0;PE;Pernambuco;Nordeste;167.7;34.9;156.2;211.8;Normal;Baixo;167;2;risco alto
+505;511;1;M;43.0;SC;Santa Catarina;Sul;134.5;32.4;141.1;170.3;Normal;Moderado;108;2;risco alto
+506;512;1;M;32.0;CE;Ceará;Nordeste;176.4;21.0;194.1;242.4;Alto;Baixo;137;1;risco muito alto
+507;513;1;M;79.0;RO;Rondônia;Norte;150.3;36.5;125.9;212.1;Alto;Baixo;109;2;risco alto
+508;514;0;F;56.0;PI;Piauí;Nordeste;144.5;18.5;163.0;192.2;Normal;Alto;158;2;risco alto
+509;515;1;M;70.0;MG;Minas Gerais;Sudeste;142.0;37.7;102.2;227.9;Alto;Baixo;93;0;risco intermediário
+510;516;1;M;73.0;MS;Mato Grosso do Sul;Centro-Oeste;125.8;23.5;122.7;162.5;Normal;Moderado;166;0;risco intermediário
+511;517;0;F;34.0;MA;Maranhão;Nordeste;139.5;20.2;170.9;234.5;Alto;Baixo;97;2;risco alto
+512;518;0;F;30.0;MG;Minas Gerais;Sudeste;166.4;20.3;140.6;186.7;Normal;Moderado;99;2;risco alto
+513;519;1;M;80.0;AL;Alagoas;Nordeste;140.0;38.7;140.9;196.2;Alto;Moderado;125;2;risco alto
+514;520;1;M;39.0;PB;Paraíba;Nordeste;141.3;35.4;99.5;159.3;Alto;Baixo;137;0;risco intermediário
+515;521;0;F;75.0;PA;Pará;Norte;218.8;22.4;178.2;240.0;Normal;Baixo;159;1;risco muito alto
+516;522;0;F;19.0;DF;Distrito Federal;Centro-Oeste;171.6;35.0;142.3;206.7;Normal;Baixo;98;2;risco alto
+517;523;1;M;47.0;SE;Sergipe;Nordeste;173.8;39.7;175.1;241.1;Alto;Baixo;159;1;risco muito alto
+518;524;0;F;32.0;MT;Mato Grosso;Centro-Oeste;87.7;39.6;49.5;105.2;Normal;Moderado;95;0;risco intermediário
+519;525;0;F;45.0;AP;Amapá;Norte;181.2;30.6;175.2;218.5;Normal;Baixo;146;1;risco muito alto
+520;526;0;F;23.0;AL;Alagoas;Nordeste;119.7;35.4;79.3;156.9;Normal;Alto;123;0;risco intermediário
+521;527;1;M;37.0;MS;Mato Grosso do Sul;Centro-Oeste;192.7;35.5;187.3;207.8;Normal;Alto;90;1;risco muito alto
+522;528;1;M;69.0;CE;Ceará;Nordeste;157.5;25.8;173.3;230.0;Normal;Baixo;165;2;risco alto
+523;529;1;M;56.0;MT;Mato Grosso;Centro-Oeste;145.3;39.4;96.6;174.0;Normal;Alto;96;0;risco intermediário
+524;530;1;M;25.0;SE;Sergipe;Nordeste;164.2;30.1;160.5;167.5;Normal;Baixo;152;2;risco alto
+525;531;0;F;35.0;RO;Rondônia;Norte;135.4;34.9;124.4;145.1;Normal;Baixo;146;0;risco intermediário
+526;532;1;M;80.0;PE;Pernambuco;Nordeste;139.2;29.7;187.6;223.2;Alto;Alto;112;1;risco muito alto
+527;533;1;M;56.0;RR;Roraima;Norte;175.9;28.3;138.3;220.4;Alto;Alto;167;2;risco alto
+528;534;1;M;79.0;AL;Alagoas;Nordeste;171.9;23.6;192.6;238.6;Normal;Baixo;114;1;risco muito alto
+529;535;0;F;63.0;RJ;Rio de Janeiro;Sudeste;200.7;37.4;194.3;239.6;Alto;Baixo;124;1;risco muito alto
+530;536;0;F;74.0;SP;São Paulo;Sudeste;217.4;24.5;198.8;280.7;Normal;Alto;170;1;risco muito alto
+531;537;1;M;77.0;PB;Paraíba;Nordeste;186.8;18.9;198.5;275.1;Normal;Alto;140;1;risco muito alto
+532;538;0;F;39.0;RO;Rondônia;Norte;192.0;35.3;186.8;185.9;Alto;Moderado;126;1;risco muito alto
+533;539;1;M;55.0;TO;Tocantins;Norte;120.3;33.6;127.7;161.7;Alto;Baixo;126;0;risco intermediário
+534;540;0;F;34.0;RR;Roraima;Norte;154.0;38.4;175.6;228.3;Normal;Alto;145;1;risco muito alto
+535;541;1;M;29.0;RR;Roraima;Norte;143.2;21.8;117.8;200.0;Normal;Moderado;111;0;risco intermediário
+536;542;1;M;37.0;AM;Amazonas;Norte;187.3;36.4;114.8;190.9;Alto;Baixo;134;2;risco alto
+537;543;1;M;41.0;RN;Rio Grande do Norte;Nordeste;169.4;20.3;167.4;213.5;Normal;Baixo;118;2;risco alto
+538;544;1;M;78.0;MT;Mato Grosso;Centro-Oeste;107.6;19.7;148.1;157.1;Normal;Baixo;145;2;risco alto
+539;545;0;F;21.0;RO;Rondônia;Norte;155.7;34.8;58.4;161.9;Normal;Alto;150;0;risco intermediário
+540;546;1;M;37.0;RJ;Rio de Janeiro;Sudeste;124.5;18.2;157.4;198.5;Alto;Moderado;145;2;risco alto
+541;547;0;F;62.0;MG;Minas Gerais;Sudeste;121.9;20.7;168.8;184.2;Normal;Baixo;107;2;risco alto
+542;548;1;M;39.0;PA;Pará;Norte;178.3;30.5;178.2;183.8;Normal;Moderado;167;1;risco muito alto
+543;549;1;M;75.0;AP;Amapá;Norte;129.2;33.9;200.4;217.5;Normal;Moderado;128;1;risco muito alto
+544;550;0;F;40.0;TO;Tocantins;Norte;136.3;23.7;93.2;150.5;Normal;Alto;105;0;risco intermediário
+545;551;1;M;66.0;PE;Pernambuco;Nordeste;132.7;36.6;103.0;201.1;Normal;Baixo;93;0;risco intermediário
+546;552;0;F;58.0;PR;Paraná;Sul;135.8;33.2;167.0;168.5;Normal;Alto;166;2;risco alto
+547;553;1;M;29.0;ES;Espírito Santo;Sudeste;134.7;32.6;166.3;195.5;Normal;Baixo;163;2;risco alto
+548;554;0;F;24.0;MA;Maranhão;Nordeste;159.2;20.8;219.3;173.6;Normal;Moderado;95;1;risco muito alto
+549;555;1;M;50.0;MT;Mato Grosso;Centro-Oeste;173.7;20.8;137.2;206.1;Normal;Baixo;147;2;risco alto
+550;556;0;F;64.0;SE;Sergipe;Nordeste;140.1;37.3;168.8;155.5;Normal;Baixo;118;2;risco alto
+551;557;1;M;77.0;DF;Distrito Federal;Centro-Oeste;169.5;35.1;165.2;251.4;Alto;Baixo;133;2;risco alto
+552;558;0;F;27.0;MA;Maranhão;Nordeste;107.7;33.5;118.8;153.2;Normal;Moderado;167;0;risco intermediário
+553;559;0;F;29.0;MT;Mato Grosso;Centro-Oeste;137.0;27.3;154.3;212.1;Alto;Baixo;138;2;risco alto
+554;560;1;M;34.0;RN;Rio Grande do Norte;Nordeste;120.1;30.9;82.1;151.5;Alto;Baixo;118;0;risco intermediário
+555;561;0;F;80.0;MA;Maranhão;Nordeste;93.8;29.3;116.7;135.1;Normal;Alto;146;0;risco intermediário
+556;562;0;F;32.0;AM;Amazonas;Norte;154.9;25.7;118.7;195.6;Normal;Baixo;147;0;risco intermediário
+557;563;1;M;19.0;PA;Pará;Norte;144.4;32.0;210.6;235.6;Normal;Baixo;127;1;risco muito alto
+558;564;0;F;48.0;AM;Amazonas;Norte;119.9;29.1;133.3;167.9;Normal;Baixo;135;0;risco intermediário
+559;565;1;M;44.0;RN;Rio Grande do Norte;Nordeste;201.9;32.6;173.3;216.8;Alto;Baixo;106;1;risco muito alto
+560;566;0;F;47.0;MG;Minas Gerais;Sudeste;129.9;20.6;155.6;193.22;Normal;Moderado;155;2;risco alto
+561;567;0;F;35.0;PI;Piauí;Nordeste;164.6;33.8;128.2;206.4;Normal;Baixo;108;2;risco alto
+562;568;0;F;46.0;PE;Pernambuco;Nordeste;198.7;34.0;144.7;223.4;Normal;Baixo;121;2;risco alto
+563;569;0;F;78.0;MG;Minas Gerais;Sudeste;145.6;38.8;118.8;163.5;Alto;Baixo;133;0;risco intermediário
+564;570;1;M;55.0;DF;Distrito Federal;Centro-Oeste;174.2;38.2;155.9;231.6;Normal;Alto;110;2;risco alto
+565;571;1;M;18.0;RJ;Rio de Janeiro;Sudeste;131.0;37.3;156.9;181.0;Normal;Baixo;115;2;risco alto
+566;572;0;F;40.0;SP;São Paulo;Sudeste;137.1;29.9;123.8;138.7;Normal;Baixo;118;0;risco intermediário
+567;573;1;M;71.0;PA;Pará;Norte;157.1;24.9;124.3;159.5;Normal;Alto;164;2;risco alto
+568;574;0;F;48.0;SE;Sergipe;Nordeste;170.6;21.1;134.3;197.5;Normal;Moderado;116;2;risco alto
+569;575;0;F;53.0;ES;Espírito Santo;Sudeste;164.1;21.7;135.0;173.2;Normal;Moderado;108;2;risco alto
+570;576;0;F;28.0;ES;Espírito Santo;Sudeste;126.5;24.9;136.4;172.0;Normal;Baixo;96;2;risco alto
+571;577;0;F;65.0;PE;Pernambuco;Nordeste;135.3;24.8;127.7;183.0;Normal;Baixo;119;0;risco intermediário
+572;578;0;F;27.0;AP;Amapá;Norte;209.7;36.0;189.2;241.6;Normal;Baixo;145;1;risco muito alto
+573;579;0;F;67.0;PE;Pernambuco;Nordeste;164.2;23.6;167.0;223.8;Alto;Moderado;119;2;risco alto
+574;580;0;F;56.0;SP;São Paulo;Sudeste;157.1;29.8;188.7;239.8;Normal;Moderado;120;1;risco muito alto
+575;581;0;F;57.0;PE;Pernambuco;Nordeste;145.8;28.3;213.7;242.3;Alto;Baixo;145;1;risco muito alto
+576;582;1;M;38.0;PB;Paraíba;Nordeste;184.3;20.0;140.2;222.0;Normal;Moderado;151;2;risco alto
+577;583;0;F;38.0;RS;Rio Grande do Sul;Sul;144.7;23.5;205.2;208.2;Alto;Moderado;151;1;risco muito alto
+578;584;0;F;52.0;AM;Amazonas;Norte;111.7;26.9;121.5;162.2;Normal;Moderado;144;0;risco intermediário
+579;585;0;F;73.0;PI;Piauí;Nordeste;175.6;35.9;186.7;240.1;Normal;Baixo;129;1;risco muito alto
+580;586;0;F;61.0;AC;Acre;Norte;188.1;28.4;183.2;192.3;Normal;Baixo;121;1;risco muito alto
+581;587;1;M;66.0;AC;Acre;Norte;147.0;18.2;132.5;185.2;Alto;Moderado;154;2;risco alto
+582;588;1;M;34.0;RN;Rio Grande do Norte;Nordeste;168.5;33.8;116.5;176.1;Normal;Baixo;99;2;risco alto
+583;589;0;F;19.0;PI;Piauí;Nordeste;146.5;19.9;111.8;134.8;Normal;Moderado;115;0;risco intermediário
+584;590;1;M;23.0;GO;Goiás;Centro-Oeste;172.3;38.7;178.5;164.1;Normal;Baixo;150;1;risco muito alto
+585;591;0;F;23.0;PR;Paraná;Sul;134.0;30.9;165.6;204.2;Normal;Baixo;144;2;risco alto
+586;592;0;F;68.0;PA;Pará;Norte;140.6;33.2;94.4;168.8;Alto;Baixo;153;0;risco intermediário
+587;593;0;F;30.0;RJ;Rio de Janeiro;Sudeste;161.1;25.8;152.8;211.8;Normal;Baixo;104;2;risco alto
+588;594;1;M;44.0;PR;Paraná;Sul;135.4;20.3;119.4;218.9;Normal;Baixo;133;0;risco intermediário
+589;595;1;M;62.0;AC;Acre;Norte;115.1;19.9;228.8;204.4;Normal;Moderado;131;1;risco muito alto
+590;596;1;M;62.0;SP;São Paulo;Sudeste;178.6;35.7;165.2;223.8;Normal;Baixo;169;2;risco alto
+591;597;1;M;43.0;AM;Amazonas;Norte;132.6;25.3;136.4;177.6;Alto;Baixo;155;2;risco alto
+592;598;0;F;69.0;MG;Minas Gerais;Sudeste;164.1;31.4;182.7;225.2;Normal;Moderado;114;1;risco muito alto
+593;599;0;F;25.0;AM;Amazonas;Norte;136.3;25.8;131.7;172.5;Normal;Baixo;156;2;risco alto
+594;600;1;M;73.0;GO;Goiás;Centro-Oeste;192.2;29.4;194.2;270.1;Normal;Baixo;144;1;risco muito alto
+595;601;1;M;32.0;PE;Pernambuco;Nordeste;214.9;22.9;159.9;212.6;Alto;Moderado;146;1;risco muito alto
+596;602;0;F;74.0;RO;Rondônia;Norte;144.2;18.9;77.6;177.5;Alto;Alto;156;0;risco intermediário
+597;603;1;M;36.0;BA;Bahia;Nordeste;173.3;29.0;148.3;193.7;Normal;Moderado;119;2;risco alto
+598;604;1;M;59.0;RN;Rio Grande do Norte;Nordeste;182.8;33.4;139.3;204.3;Alto;Baixo;117;2;risco alto
+599;605;1;M;32.0;MS;Mato Grosso do Sul;Centro-Oeste;132.9;35.7;73.0;145.3;Alto;Baixo;115;0;risco intermediário
+600;606;0;F;34.0;DF;Distrito Federal;Centro-Oeste;152.1;18.9;152.4;203.9;Normal;Moderado;114;2;risco alto
+601;607;0;F;42.0;PR;Paraná;Sul;142.1;37.2;145.2;218.0;Alto;Baixo;135;2;risco alto
+602;608;0;F;52.0;SE;Sergipe;Nordeste;193.0;18.8;155.4;210.3;Normal;Baixo;143;2;risco alto
+603;609;0;F;71.0;RJ;Rio de Janeiro;Sudeste;203.2;20.2;189.2;240.4;Alto;Alto;106;1;risco muito alto
+604;610;1;M;54.0;SC;Santa Catarina;Sul;160.9;29.9;166.5;219.2;Normal;Moderado;96;2;risco alto
+605;611;0;F;38.0;MT;Mato Grosso;Centro-Oeste;148.6;36.7;146.1;182.3;Normal;Baixo;143;2;risco alto
+606;612;0;F;50.0;PB;Paraíba;Nordeste;133.3;19.4;150.9;184.0;Alto;Baixo;170;2;risco alto
+607;613;0;F;34.0;TO;Tocantins;Norte;101.1;21.7;107.5;150.5;Normal;Baixo;145;0;risco intermediário
+608;614;1;M;19.0;CE;Ceará;Nordeste;122.4;36.3;131.8;198.3;Alto;Baixo;135;0;risco intermediário
+609;615;1;M;49.0;RS;Rio Grande do Sul;Sul;175.8;28.1;159.4;195.3;Alto;Baixo;96;2;risco alto
+610;616;1;M;79.0;MT;Mato Grosso;Centro-Oeste;146.4;30.1;170.2;222.9;Normal;Moderado;156;2;risco alto
+611;617;1;M;38.0;CE;Ceará;Nordeste;149.6;20.0;175.0;217.6;Alto;Baixo;162;2;risco alto
+612;618;1;M;52.0;PA;Pará;Norte;138.9;21.1;162.9;225.9;Normal;Baixo;166;2;risco alto
+613;619;0;F;20.0;MG;Minas Gerais;Sudeste;151.2;19.8;227.6;209.4;Normal;Baixo;108;1;risco muito alto
+614;620;1;M;67.0;BA;Bahia;Nordeste;136.0;39.9;192.4;188.8;Normal;Baixo;149;1;risco muito alto
+615;621;0;F;32.0;PB;Paraíba;Nordeste;143.9;32.4;173.1;215.9;Normal;Moderado;145;2;risco alto
+616;622;0;F;42.0;PI;Piauí;Nordeste;106.7;30.6;171.2;167.4;Normal;Alto;147;2;risco alto
+617;623;0;F;38.0;RJ;Rio de Janeiro;Sudeste;165.1;33.9;148.8;239.2;Normal;Baixo;147;2;risco alto
+618;624;0;F;41.0;RR;Roraima;Norte;130.9;32.8;164.7;185.0;Alto;Baixo;124;2;risco alto
+619;625;1;M;21.0;TO;Tocantins;Norte;159.9;38.0;129.4;205.1;Normal;Moderado;154;2;risco alto
+620;626;1;M;79.0;RN;Rio Grande do Norte;Nordeste;140.2;38.1;148.9;203.7;Normal;Alto;91;2;risco alto
+621;627;1;M;73.0;MS;Mato Grosso do Sul;Centro-Oeste;174.6;39.0;160.2;200.1;Alto;Moderado;125;2;risco alto
+622;628;0;F;21.0;SC;Santa Catarina;Sul;143.3;36.7;54.4;181.6;Alto;Moderado;94;0;risco intermediário
+623;629;1;M;33.0;SE;Sergipe;Nordeste;137.5;38.3;148.7;197.8;Normal;Baixo;136;2;risco alto
+624;630;0;F;72.0;SC;Santa Catarina;Sul;143.6;28.7;110.7;193.22;Normal;Baixo;92;0;risco intermediário
+625;631;1;M;69.0;PE;Pernambuco;Nordeste;146.7;34.5;130.7;144.1;Normal;Baixo;149;2;risco alto
+626;632;0;F;27.0;GO;Goiás;Centro-Oeste;122.2;19.7;123.1;168.8;Normal;Moderado;119;0;risco intermediário
+627;633;0;F;44.0;CE;Ceará;Nordeste;186.7;18.5;239.7;218.9;Alto;Moderado;97;1;risco muito alto
+628;634;0;F;24.0;AL;Alagoas;Nordeste;184.8;26.5;222.9;210.8;Normal;Baixo;159;1;risco muito alto
+629;635;1;M;26.0;PB;Paraíba;Nordeste;169.5;19.5;115.6;201.1;Normal;Baixo;166;2;risco alto
+630;636;0;F;59.0;MA;Maranhão;Nordeste;163.8;22.4;201.3;233.0;Normal;Moderado;98;1;risco muito alto
+631;637;1;M;35.0;AM;Amazonas;Norte;200.0;35.8;170.3;236.3;Normal;Alto;137;1;risco muito alto
+632;638;1;M;48.0;SC;Santa Catarina;Sul;139.9;31.2;93.6;151.7;Alto;Alto;96;0;risco intermediário
+633;639;0;F;38.0;RR;Roraima;Norte;117.7;24.8;103.0;145.8;Normal;Baixo;166;0;risco intermediário
+634;640;0;F;29.0;MT;Mato Grosso;Centro-Oeste;124.7;24.6;109.5;129.9;Alto;Baixo;113;0;risco intermediário
+635;641;0;F;23.0;RO;Rondônia;Norte;148.1;19.1;170.2;229.1;Alto;Baixo;146;2;risco alto
+636;642;1;M;59.0;RN;Rio Grande do Norte;Nordeste;205.1;18.4;158.4;209.2;Normal;Baixo;96;1;risco muito alto
+637;643;1;M;40.0;AP;Amapá;Norte;222.6;18.4;155.2;257.5;Alto;Alto;147;1;risco muito alto
+638;644;1;M;53.0;GO;Goiás;Centro-Oeste;192.0;32.6;131.7;199.8;Normal;Baixo;117;2;risco alto
+639;645;0;F;27.0;DF;Distrito Federal;Centro-Oeste;180.5;26.7;206.7;230.5;Normal;Moderado;145;1;risco muito alto
+640;646;1;M;70.0;PE;Pernambuco;Nordeste;183.3;34.4;223.9;201.6;Normal;Baixo;117;1;risco muito alto
+641;647;1;M;54.0;PR;Paraná;Sul;172.3;28.1;129.2;198.8;Normal;Baixo;148;2;risco alto
+642;648;0;F;74.0;CE;Ceará;Nordeste;114.0;24.9;89.0;151.3;Normal;Baixo;152;0;risco intermediário
+643;649;0;F;64.0;BA;Bahia;Nordeste;79.7;25.8;70.7;110.8;Alto;Baixo;101;0;risco intermediário
+644;650;0;F;56.0;PB;Paraíba;Nordeste;148.9;31.9;184.5;207.1;Normal;Moderado;144;1;risco muito alto
+645;651;1;M;33.0;SP;São Paulo;Sudeste;175.5;20.9;200.5;215.6;Normal;Baixo;109;1;risco muito alto
+646;652;0;F;61.0;TO;Tocantins;Norte;141.1;31.1;154.5;196.4;Normal;Moderado;153;2;risco alto
+647;653;1;M;42.0;GO;Goiás;Centro-Oeste;132.9;33.0;148.4;218.2;Normal;Moderado;137;2;risco alto
+648;654;0;F;46.0;DF;Distrito Federal;Centro-Oeste;166.8;28.8;166.7;233.3;Normal;Moderado;126;2;risco alto
+649;655;1;M;79.0;GO;Goiás;Centro-Oeste;114.2;34.9;137.6;164.7;Normal;Alto;106;0;risco intermediário
+650;656;0;F;73.0;AL;Alagoas;Nordeste;145.8;34.9;176.2;188.1;Normal;Baixo;98;2;risco alto
+651;657;1;M;35.0;RS;Rio Grande do Sul;Sul;136.2;18.7;177.1;214.9;Normal;Baixo;111;2;risco alto
+652;658;1;M;74.0;SP;São Paulo;Sudeste;153.2;37.6;181.6;197.0;Normal;Moderado;137;1;risco muito alto
+653;659;0;F;60.0;AL;Alagoas;Nordeste;161.8;35.4;161.8;200.4;Normal;Baixo;136;2;risco alto
+654;660;1;M;48.0;RS;Rio Grande do Sul;Sul;113.5;35.5;100.2;130.2;Normal;Moderado;156;0;risco intermediário
+655;661;1;M;55.0;RN;Rio Grande do Norte;Nordeste;167.1;25.7;120.6;177.8;Normal;Moderado;160;2;risco alto
+656;662;1;M;56.0;PR;Paraná;Sul;153.3;21.6;212.2;218.8;Normal;Baixo;146;1;risco muito alto
+657;663;0;F;34.0;PA;Pará;Norte;135.5;36.4;194.1;207.6;Alto;Moderado;120;1;risco muito alto
+658;664;0;F;50.0;PR;Paraná;Sul;88.5;18.7;80.9;127.7;Normal;Moderado;124;0;risco intermediário
+659;665;1;M;66.0;PR;Paraná;Sul;79.8;34.4;135.9;175.7;Normal;Baixo;150;0;risco intermediário
+660;666;1;M;28.0;RO;Rondônia;Norte;133.8;33.2;118.4;145.2;Normal;Baixo;152;0;risco intermediário
+661;667;1;M;34.0;RJ;Rio de Janeiro;Sudeste;143.5;21.6;173.8;188.1;Normal;Baixo;135;2;risco alto
+662;668;1;M;55.0;RJ;Rio de Janeiro;Sudeste;119.4;38.1;138.7;131.5;Normal;Moderado;133;2;risco alto
+663;669;1;M;52.0;MS;Mato Grosso do Sul;Centro-Oeste;84.3;30.3;56.0;130.4;Normal;Baixo;167;0;risco intermediário
+664;670;0;F;55.0;PR;Paraná;Sul;160.0;30.4;157.9;201.3;Normal;Baixo;151;2;risco alto
+665;671;0;F;28.0;MS;Mato Grosso do Sul;Centro-Oeste;173.0;39.9;119.7;185.5;Normal;Moderado;141;2;risco alto
+666;672;1;M;41.0;TO;Tocantins;Norte;199.1;38.5;208.8;245.6;Normal;Moderado;156;1;risco muito alto
+667;673;0;F;69.0;AP;Amapá;Norte;179.3;22.1;171.5;211.6;Normal;Moderado;130;1;risco muito alto
+668;674;0;F;79.0;RS;Rio Grande do Sul;Sul;140.0;25.8;144.4;160.4;Normal;Baixo;160;2;risco alto
+669;675;0;F;27.0;TO;Tocantins;Norte;108.0;38.7;102.1;172.2;Alto;Moderado;149;0;risco intermediário
+670;676;0;F;42.0;MA;Maranhão;Nordeste;152.3;40.0;163.8;218.4;Normal;Baixo;128;2;risco alto
+671;677;0;F;72.0;AM;Amazonas;Norte;116.5;19.6;131.4;181.1;Alto;Moderado;148;0;risco intermediário
+672;678;0;F;80.0;MS;Mato Grosso do Sul;Centro-Oeste;134.9;34.4;147.3;201.3;Normal;Baixo;97;2;risco alto
+673;679;0;F;37.0;PE;Pernambuco;Nordeste;123.5;18.1;143.0;164.8;Normal;Alto;134;2;risco alto
+674;680;0;F;26.0;MT;Mato Grosso;Centro-Oeste;166.0;31.3;150.9;191.9;Normal;Moderado;132;2;risco alto
+675;681;1;M;71.0;PA;Pará;Norte;109.5;26.0;101.9;176.3;Normal;Baixo;146;0;risco intermediário
+676;682;0;F;53.0;PB;Paraíba;Nordeste;174.1;34.5;141.8;232.8;Normal;Baixo;167;2;risco alto
+677;683;1;M;26.0;PB;Paraíba;Nordeste;143.7;26.5;154.8;190.1;Normal;Baixo;116;2;risco alto
+678;684;1;M;46.0;SC;Santa Catarina;Sul;160.6;26.4;154.0;231.2;Normal;Baixo;93;2;risco alto
+679;685;1;M;52.0;PE;Pernambuco;Nordeste;153.0;22.7;127.6;195.2;Normal;Baixo;139;2;risco alto
+680;686;1;M;29.0;AL;Alagoas;Nordeste;131.4;28.0;108.1;132.0;Normal;Baixo;103;0;risco intermediário
+681;687;0;F;70.0;AC;Acre;Norte;140.6;21.4;147.4;177.0;Normal;Moderado;161;2;risco alto
+682;688;0;F;38.0;MT;Mato Grosso;Centro-Oeste;164.5;36.9;193.2;176.2;Normal;Baixo;93;1;risco muito alto
+683;689;0;F;22.0;AL;Alagoas;Nordeste;131.0;19.6;173.6;202.0;Normal;Moderado;100;2;risco alto
+684;690;1;M;58.0;GO;Goiás;Centro-Oeste;151.2;33.9;142.9;201.6;Normal;Moderado;126;2;risco alto
+685;691;1;M;38.0;PA;Pará;Norte;201.6;36.0;200.5;272.4;Normal;Alto;122;1;risco muito alto
+686;692;0;F;45.0;PR;Paraná;Sul;153.3;25.5;224.1;260.7;Normal;Baixo;162;1;risco muito alto
+687;693;0;F;74.0;DF;Distrito Federal;Centro-Oeste;140.0;18.4;158.4;197.5;Normal;Baixo;159;2;risco alto
+688;694;0;F;52.0;PR;Paraná;Sul;92.0;36.6;120.1;164.8;Normal;Baixo;109;0;risco intermediário
+689;695;0;F;27.0;AP;Amapá;Norte;135.7;25.2;177.3;217.8;Normal;Moderado;155;2;risco alto
+690;696;0;F;63.0;MA;Maranhão;Nordeste;73.2;19.7;73.3;132.6;Normal;Alto;155;0;risco intermediário
+691;697;1;M;51.0;TO;Tocantins;Norte;125.9;33.2;95.5;226.9;Normal;Moderado;96;0;risco intermediário
+692;698;1;M;59.0;AM;Amazonas;Norte;144.7;22.8;138.0;173.7;Normal;Baixo;153;2;risco alto
+693;699;1;M;26.0;RS;Rio Grande do Sul;Sul;150.9;21.3;169.0;150.7;Alto;Baixo;133;2;risco alto
+694;700;0;F;73.0;PA;Pará;Norte;187.2;28.2;160.4;211.4;Normal;Baixo;100;2;risco alto
+695;701;0;F;54.0;RJ;Rio de Janeiro;Sudeste;140.6;21.1;134.2;222.4;Normal;Alto;125;2;risco alto
+696;702;0;F;43.0;TO;Tocantins;Norte;139.9;22.9;106.5;190.9;Normal;Baixo;118;0;risco intermediário
+697;703;0;F;25.0;PB;Paraíba;Nordeste;166.2;36.7;175.7;178.1;Alto;Baixo;142;1;risco muito alto
+698;704;0;F;65.0;PE;Pernambuco;Nordeste;172.3;25.8;163.8;186.4;Normal;Baixo;122;2;risco alto
+699;705;0;F;69.0;AP;Amapá;Norte;181.7;21.2;165.3;208.8;Normal;Baixo;123;1;risco muito alto
+700;706;0;F;70.0;AM;Amazonas;Norte;208.6;30.6;179.7;207.7;Normal;Baixo;162;1;risco muito alto
+701;707;0;F;40.0;RS;Rio Grande do Sul;Sul;187.1;24.9;139.9;252.5;Normal;Moderado;166;2;risco alto
+702;708;0;F;76.0;RS;Rio Grande do Sul;Sul;149.6;25.8;155.8;190.5;Normal;Moderado;169;2;risco alto
+703;709;0;F;53.0;RS;Rio Grande do Sul;Sul;172.1;36.5;151.2;202.5;Normal;Moderado;155;2;risco alto
+704;710;1;M;50.0;BA;Bahia;Nordeste;154.6;35.4;140.1;205.0;Normal;Baixo;130;2;risco alto
+705;711;0;F;73.0;PB;Paraíba;Nordeste;171.9;33.6;119.1;193.22;Alto;Baixo;92;2;risco alto
+706;712;0;F;20.0;MG;Minas Gerais;Sudeste;133.1;24.8;169.3;216.9;Normal;Baixo;155;2;risco alto
+707;713;0;F;51.0;PI;Piauí;Nordeste;161.6;20.3;169.3;191.2;Alto;Baixo;168;2;risco alto
+708;714;1;M;41.0;AL;Alagoas;Nordeste;161.7;21.2;146.0;210.3;Normal;Moderado;143;2;risco alto
+709;715;0;F;24.0;AL;Alagoas;Nordeste;177.8;21.9;188.7;244.0;Alto;Moderado;165;1;risco muito alto
+710;716;0;F;58.0;RR;Roraima;Norte;161.5;33.5;133.8;196.1;Normal;Baixo;167;2;risco alto
+711;717;0;F;20.0;AL;Alagoas;Nordeste;108.4;24.3;144.5;157.4;Alto;Baixo;117;2;risco alto
+712;718;0;F;37.0;PE;Pernambuco;Nordeste;167.0;18.6;151.7;175.7;Normal;Moderado;151;2;risco alto
+713;719;0;F;23.0;RR;Roraima;Norte;181.0;26.2;179.8;250.2;Normal;Baixo;162;1;risco muito alto
+714;720;0;F;65.0;MS;Mato Grosso do Sul;Centro-Oeste;147.3;24.9;187.4;223.7;Normal;Baixo;124;1;risco muito alto
+715;721;0;F;30.0;MT;Mato Grosso;Centro-Oeste;143.0;27.4;148.1;193.22;Normal;Baixo;112;2;risco alto
+716;722;0;F;21.0;SE;Sergipe;Nordeste;164.6;26.0;178.6;213.4;Alto;Baixo;93;1;risco muito alto
+717;723;1;M;67.0;PR;Paraná;Sul;120.1;21.5;121.5;146.4;Normal;Baixo;96;0;risco intermediário
+718;724;1;M;31.0;SC;Santa Catarina;Sul;100.6;36.5;132.5;121.1;Normal;Baixo;111;0;risco intermediário
+719;725;1;M;37.0;MG;Minas Gerais;Sudeste;181.7;34.6;161.3;208.3;Normal;Baixo;125;2;risco alto
+720;726;0;F;49.0;PR;Paraná;Sul;132.2;34.2;102.6;164.3;Normal;Baixo;111;0;risco intermediário
+721;727;1;M;35.0;DF;Distrito Federal;Centro-Oeste;130.5;20.6;105.0;119.8;Normal;Baixo;157;0;risco intermediário
+722;728;1;M;30.0;PB;Paraíba;Nordeste;140.7;31.2;125.4;206.2;Normal;Baixo;114;0;risco intermediário
+723;729;0;F;75.0;BA;Bahia;Nordeste;119.9;39.2;139.8;197.8;Normal;Alto;94;2;risco alto
+724;730;1;M;73.0;MG;Minas Gerais;Sudeste;179.4;29.2;184.5;186.2;Alto;Baixo;98;1;risco muito alto
+725;731;0;F;74.0;AL;Alagoas;Nordeste;185.2;22.1;167.8;216.6;Normal;Moderado;97;1;risco muito alto
+726;732;1;M;60.0;BA;Bahia;Nordeste;119.8;37.1;148.7;179.3;Normal;Moderado;127;2;risco alto
+727;733;0;F;66.0;MT;Mato Grosso;Centro-Oeste;159.5;22.5;173.6;218.2;Normal;Alto;96;1;risco muito alto
+728;734;0;F;44.0;SC;Santa Catarina;Sul;182.0;23.9;209.2;238.5;Normal;Baixo;163;1;risco muito alto
+729;735;1;M;55.0;SE;Sergipe;Nordeste;138.9;37.5;123.5;183.3;Normal;Moderado;95;0;risco intermediário
+730;736;0;F;54.0;TO;Tocantins;Norte;198.4;26.6;178.2;252.0;Normal;Baixo;154;1;risco muito alto
+731;737;1;M;42.0;MS;Mato Grosso do Sul;Centro-Oeste;141.3;20.4;149.6;179.4;Alto;Baixo;128;2;risco alto
+732;738;0;F;61.0;PI;Piauí;Nordeste;133.8;33.2;86.0;193.22;Normal;Baixo;140;0;risco intermediário
+733;739;0;F;23.0;SE;Sergipe;Nordeste;205.5;21.6;189.5;231.0;Normal;Baixo;152;1;risco muito alto
+734;740;0;F;50.0;MG;Minas Gerais;Sudeste;163.7;37.5;236.6;236.8;Alto;Baixo;114;1;risco muito alto
+735;741;0;F;58.0;SP;São Paulo;Sudeste;161.5;38.2;107.1;192.8;Alto;Moderado;102;0;risco intermediário
+736;742;1;M;26.0;PB;Paraíba;Nordeste;162.4;30.6;128.0;175.7;Normal;Baixo;95;2;risco alto
+737;743;0;F;66.0;GO;Goiás;Centro-Oeste;159.7;34.5;136.8;198.7;Normal;Baixo;155;2;risco alto
+738;744;1;M;28.0;BA;Bahia;Nordeste;102.7;27.0;57.0;113.2;Normal;Moderado;127;0;risco intermediário
+739;745;0;F;69.0;AL;Alagoas;Nordeste;119.7;31.9;119.6;172.8;Normal;Baixo;111;0;risco intermediário
+740;746;1;M;45.0;PB;Paraíba;Nordeste;149.2;35.6;141.1;200.8;Normal;Alto;135;2;risco alto
+741;747;1;M;45.0;RR;Roraima;Norte;142.2;39.0;198.6;204.9;Alto;Baixo;110;1;risco muito alto
+742;748;1;M;69.0;MA;Maranhão;Nordeste;165.6;21.1;120.9;197.6;Normal;Alto;112;2;risco alto
+743;749;0;F;52.0;TO;Tocantins;Norte;153.8;29.8;151.4;188.6;Alto;Alto;155;2;risco alto
+744;750;1;M;65.0;PA;Pará;Norte;98.7;29.1;143.4;175.1;Normal;Moderado;134;0;risco intermediário
+745;751;0;F;23.0;RN;Rio Grande do Norte;Nordeste;139.1;30.4;153.8;159.1;Normal;Baixo;117;2;risco alto
+746;752;0;F;62.0;RO;Rondônia;Norte;170.4;31.7;156.7;197.1;Normal;Alto;91;2;risco alto
+747;753;1;M;46.0;PA;Pará;Norte;140.4;37.1;150.9;202.3;Alto;Moderado;147;2;risco alto
+748;754;0;F;48.0;SP;São Paulo;Sudeste;155.1;28.3;142.7;214.6;Normal;Moderado;121;2;risco alto
+749;755;0;F;25.0;MG;Minas Gerais;Sudeste;115.9;37.2;161.4;178.1;Normal;Moderado;104;2;risco alto
+750;756;1;M;20.0;MS;Mato Grosso do Sul;Centro-Oeste;137.1;24.8;123.4;218.8;Alto;Baixo;142;0;risco intermediário
+751;757;0;F;71.0;RJ;Rio de Janeiro;Sudeste;131.2;22.6;131.4;149.3;Normal;Baixo;123;0;risco intermediário
+752;758;0;F;50.0;AM;Amazonas;Norte;181.5;26.6;122.9;214.9;Normal;Baixo;155;2;risco alto
+753;759;1;M;63.0;AM;Amazonas;Norte;133.1;23.1;139.1;143.7;Alto;Baixo;107;2;risco alto
+754;760;0;F;77.0;SP;São Paulo;Sudeste;157.2;26.7;158.1;176.3;Normal;Baixo;119;2;risco alto
+755;761;0;F;46.0;AM;Amazonas;Norte;142.8;37.2;105.8;156.2;Alto;Baixo;128;0;risco intermediário
+756;762;1;M;20.0;RS;Rio Grande do Sul;Sul;170.9;27.0;137.6;211.5;Normal;Baixo;141;2;risco alto
+757;763;0;F;19.0;PI;Piauí;Nordeste;115.4;36.3;147.1;126.0;Normal;Baixo;134;2;risco alto
+758;764;1;M;70.0;SC;Santa Catarina;Sul;173.8;39.6;164.0;232.0;Alto;Alto;106;2;risco alto
+759;765;0;F;63.0;GO;Goiás;Centro-Oeste;143.6;19.8;131.4;212.1;Normal;Baixo;167;2;risco alto
+760;766;1;M;40.0;TO;Tocantins;Norte;174.1;24.8;179.2;248.2;Normal;Moderado;165;1;risco muito alto
+761;767;1;M;32.0;PR;Paraná;Sul;140.0;29.8;155.4;166.9;Normal;Baixo;113;2;risco alto
+762;768;0;F;69.0;GO;Goiás;Centro-Oeste;134.8;21.3;160.7;194.1;Normal;Baixo;168;2;risco alto
+763;769;0;F;25.0;RR;Roraima;Norte;137.3;26.8;148.8;206.1;Normal;Baixo;103;2;risco alto
+764;770;1;M;19.0;MG;Minas Gerais;Sudeste;176.1;33.5;191.9;229.8;Normal;Baixo;166;1;risco muito alto
+765;771;0;F;43.0;RR;Roraima;Norte;199.2;25.5;150.4;221.6;Normal;Baixo;139;2;risco alto
+766;772;0;F;64.0;MG;Minas Gerais;Sudeste;143.8;18.5;193.6;221.7;Normal;Alto;167;1;risco muito alto
+767;773;1;M;20.0;RS;Rio Grande do Sul;Sul;114.4;28.3;168.1;164.6;Normal;Baixo;128;2;risco alto
+768;774;1;M;30.0;BA;Bahia;Nordeste;162.4;35.7;97.8;191.1;Alto;Alto;136;0;risco intermediário
+769;775;0;F;71.0;MG;Minas Gerais;Sudeste;175.3;27.9;157.8;196.1;Alto;Baixo;112;2;risco alto
+770;776;0;F;32.0;DF;Distrito Federal;Centro-Oeste;163.9;29.2;173.5;205.6;Normal;Baixo;148;1;risco muito alto
+771;777;1;M;40.0;AP;Amapá;Norte;153.5;36.3;201.1;214.2;Normal;Alto;135;1;risco muito alto
+772;778;0;F;59.0;CE;Ceará;Nordeste;177.2;26.6;124.5;219.2;Normal;Moderado;131;2;risco alto
+773;779;0;F;51.0;SE;Sergipe;Nordeste;133.2;38.6;142.7;206.7;Normal;Baixo;160;2;risco alto
+774;780;0;F;53.0;RR;Roraima;Norte;130.8;19.3;152.9;189.6;Normal;Baixo;95;2;risco alto
+775;781;0;F;56.0;RJ;Rio de Janeiro;Sudeste;112.5;18.3;100.5;150.3;Normal;Baixo;129;0;risco intermediário
+776;782;0;F;25.0;RS;Rio Grande do Sul;Sul;185.1;33.2;183.5;293.2;Normal;Moderado;93;1;risco muito alto
+777;783;1;M;56.0;CE;Ceará;Nordeste;187.9;19.7;154.5;210.8;Normal;Baixo;144;2;risco alto
+778;784;0;F;55.0;DF;Distrito Federal;Centro-Oeste;175.8;26.8;121.3;163.0;Normal;Baixo;98;2;risco alto
+779;785;0;F;57.0;DF;Distrito Federal;Centro-Oeste;166.2;29.5;151.9;194.0;Normal;Baixo;108;2;risco alto
+780;786;0;F;66.0;RS;Rio Grande do Sul;Sul;176.5;24.3;103.3;214.0;Normal;Baixo;122;0;risco intermediário
+781;787;1;M;57.0;RN;Rio Grande do Norte;Nordeste;167.6;25.2;154.7;207.5;Alto;Moderado;164;2;risco alto
+782;788;0;F;44.0;TO;Tocantins;Norte;158.9;34.2;111.9;196.6;Normal;Moderado;152;0;risco intermediário
+783;789;0;F;35.0;AP;Amapá;Norte;141.0;32.9;117.0;203.7;Alto;Baixo;107;0;risco intermediário
+784;790;0;F;72.0;RR;Roraima;Norte;201.7;37.8;144.3;219.6;Normal;Baixo;96;2;risco alto
+785;791;1;M;73.0;AC;Acre;Norte;154.5;32.4;184.5;213.8;Normal;Baixo;161;1;risco muito alto
+786;792;0;F;78.0;SE;Sergipe;Nordeste;119.8;19.8;176.9;174.7;Alto;Baixo;114;2;risco alto
+787;793;0;F;74.0;MA;Maranhão;Nordeste;157.3;23.1;200.3;207.1;Alto;Alto;112;1;risco muito alto
+788;794;1;M;40.0;MA;Maranhão;Nordeste;139.5;36.8;129.5;192.0;Alto;Moderado;100;2;risco alto
+789;795;1;M;55.0;PB;Paraíba;Nordeste;169.5;29.6;148.2;229.9;Normal;Moderado;110;2;risco alto
+790;796;0;F;80.0;CE;Ceará;Nordeste;142.8;37.9;188.8;198.2;Alto;Baixo;144;1;risco muito alto
+791;797;0;F;62.0;RJ;Rio de Janeiro;Sudeste;196.1;30.0;142.9;217.8;Normal;Moderado;122;2;risco alto
+792;798;1;M;33.0;PA;Pará;Norte;162.5;27.0;165.5;199.3;Normal;Baixo;121;2;risco alto
+793;799;1;M;60.0;RJ;Rio de Janeiro;Sudeste;194.0;27.0;184.7;234.2;Alto;Moderado;150;1;risco muito alto
+794;800;1;M;37.0;TO;Tocantins;Norte;130.9;19.8;147.1;218.8;Alto;Baixo;102;2;risco alto
+795;801;0;F;34.0;PI;Piauí;Nordeste;154.8;23.3;154.1;179.2;Normal;Baixo;152;2;risco alto
+796;802;0;F;35.0;MA;Maranhão;Nordeste;96.5;27.0;122.5;174.2;Normal;Baixo;118;0;risco intermediário
+797;803;0;F;49.0;RR;Roraima;Norte;177.0;34.6;101.7;181.8;Normal;Moderado;140;0;risco intermediário
+798;804;1;M;76.0;RR;Roraima;Norte;165.8;21.0;89.3;175.8;Normal;Baixo;144;0;risco intermediário
+799;805;0;F;43.0;SP;São Paulo;Sudeste;156.3;18.1;157.4;186.9;Normal;Moderado;120;2;risco alto
+800;806;0;F;79.0;PE;Pernambuco;Nordeste;135.6;36.6;126.2;224.2;Alto;Baixo;109;0;risco intermediário
+801;807;0;F;47.0;AC;Acre;Norte;158.4;36.3;108.3;173.8;Alto;Baixo;116;0;risco intermediário
+802;808;1;M;32.0;MG;Minas Gerais;Sudeste;106.5;19.9;116.0;144.0;Normal;Moderado;106;0;risco intermediário
+803;809;1;M;78.0;TO;Tocantins;Norte;157.2;20.1;113.8;198.7;Normal;Moderado;158;0;risco intermediário
+804;810;0;F;66.0;BA;Bahia;Nordeste;141.4;35.8;164.7;199.4;Normal;Moderado;139;2;risco alto
+805;811;1;M;21.0;MT;Mato Grosso;Centro-Oeste;139.8;20.3;120.9;157.4;Alto;Baixo;144;0;risco intermediário
+806;812;0;F;70.0;SE;Sergipe;Nordeste;180.1;23.6;166.7;219.7;Alto;Alto;153;1;risco muito alto
+807;813;0;F;60.0;PI;Piauí;Nordeste;146.3;34.6;198.3;198.6;Normal;Baixo;114;1;risco muito alto
+808;814;1;M;69.0;PB;Paraíba;Nordeste;109.4;27.8;118.4;164.9;Normal;Moderado;135;0;risco intermediário
+809;815;0;F;21.0;GO;Goiás;Centro-Oeste;184.2;28.2;232.4;226.1;Alto;Baixo;120;1;risco muito alto
+810;816;1;M;32.0;PE;Pernambuco;Nordeste;174.1;35.5;133.1;189.7;Normal;Alto;144;2;risco alto
+811;817;1;M;62.0;ES;Espírito Santo;Sudeste;108.4;23.9;191.2;174.1;Normal;Moderado;145;2;risco alto
+812;818;1;M;43.0;RO;Rondônia;Norte;190.7;31.9;124.8;202.7;Alto;Baixo;90;2;risco alto
+813;819;0;F;38.0;PB;Paraíba;Nordeste;178.4;28.6;148.5;182.9;Normal;Moderado;145;2;risco alto
+814;820;1;M;52.0;RJ;Rio de Janeiro;Sudeste;126.7;21.1;159.2;184.7;Normal;Moderado;119;2;risco alto
+815;821;1;M;62.0;GO;Goiás;Centro-Oeste;138.4;18.4;137.7;170.5;Normal;Baixo;95;2;risco alto
+816;822;0;F;70.0;AM;Amazonas;Norte;126.2;25.0;180.9;160.1;Normal;Baixo;138;2;risco alto
+817;823;0;F;33.0;TO;Tocantins;Norte;139.6;38.3;122.0;178.8;Normal;Moderado;168;0;risco intermediário
+818;824;0;F;70.0;RR;Roraima;Norte;155.0;22.2;147.2;177.0;Normal;Baixo;158;2;risco alto
+819;825;1;M;34.0;MS;Mato Grosso do Sul;Centro-Oeste;125.9;25.5;111.2;200.1;Normal;Moderado;136;0;risco intermediário
+820;826;1;M;21.0;AC;Acre;Norte;163.0;31.8;171.2;215.5;Normal;Baixo;93;2;risco alto
+821;827;0;F;51.0;PE;Pernambuco;Nordeste;148.4;25.0;150.7;179.9;Normal;Baixo;115;2;risco alto
+822;828;0;F;63.0;SE;Sergipe;Nordeste;154.4;31.0;82.0;144.3;Normal;Alto;115;0;risco intermediário
+823;829;0;F;74.0;TO;Tocantins;Norte;129.9;23.5;158.6;189.1;Alto;Alto;125;2;risco alto
+824;830;0;F;55.0;MT;Mato Grosso;Centro-Oeste;135.4;27.0;68.1;145.2;Normal;Baixo;123;0;risco intermediário
+825;831;0;F;47.0;MG;Minas Gerais;Sudeste;124.7;21.2;145.8;174.2;Normal;Moderado;114;2;risco alto
+826;832;0;F;28.0;AL;Alagoas;Nordeste;138.5;37.5;122.6;176.2;Normal;Baixo;164;0;risco intermediário
+827;833;0;F;19.0;TO;Tocantins;Norte;124.0;36.8;135.9;186.1;Normal;Moderado;149;2;risco alto
+828;835;0;F;45.0;GO;Goiás;Centro-Oeste;68.7;35.3;90.5;124.0;Normal;Baixo;168;0;risco intermediário
+829;836;0;F;73.0;PE;Pernambuco;Nordeste;132.1;28.5;188.7;193.4;Normal;Baixo;108;1;risco muito alto
+830;837;1;M;74.0;RJ;Rio de Janeiro;Sudeste;130.9;35.1;126.0;138.3;Normal;Moderado;122;0;risco intermediário
+831;838;0;F;79.0;PI;Piauí;Nordeste;156.5;37.4;172.7;212.1;Alto;Moderado;117;2;risco alto
+832;839;1;M;70.0;GO;Goiás;Centro-Oeste;143.9;21.5;96.4;152.3;Normal;Baixo;109;0;risco intermediário
+833;840;0;F;67.0;PR;Paraná;Sul;134.2;36.1;160.4;193.22;Normal;Alto;116;2;risco alto
+834;841;0;F;63.0;RN;Rio Grande do Norte;Nordeste;144.9;34.8;158.0;175.3;Alto;Baixo;93;2;risco alto
+835;843;0;F;31.0;MA;Maranhão;Nordeste;156.4;24.7;163.9;215.2;Alto;Baixo;142;2;risco alto
+836;844;0;F;20.0;MS;Mato Grosso do Sul;Centro-Oeste;163.8;18.6;111.4;179.0;Normal;Baixo;169;0;risco intermediário
+837;845;1;M;24.0;MS;Mato Grosso do Sul;Centro-Oeste;118.5;22.0;118.1;138.1;Normal;Baixo;147;0;risco intermediário
+838;846;1;M;22.0;RR;Roraima;Norte;103.1;36.8;188.2;202.6;Normal;Baixo;163;2;risco alto
+839;847;1;M;44.0;RN;Rio Grande do Norte;Nordeste;67.5;35.8;145.5;155.7;Normal;Baixo;100;0;risco intermediário
+840;848;0;F;71.0;GO;Goiás;Centro-Oeste;146.4;35.2;113.9;143.8;Normal;Baixo;146;0;risco intermediário
+841;849;1;M;23.0;PB;Paraíba;Nordeste;163.8;32.4;137.5;205.0;Normal;Baixo;120;2;risco alto
+842;850;1;M;37.0;PR;Paraná;Sul;106.0;27.1;160.4;177.9;Normal;Baixo;158;2;risco alto
+843;851;0;F;38.0;RN;Rio Grande do Norte;Nordeste;169.9;27.2;159.8;234.1;Normal;Baixo;136;2;risco alto
+844;852;1;M;67.0;AC;Acre;Norte;128.2;28.2;124.1;150.6;Normal;Baixo;127;0;risco intermediário
+845;853;0;F;71.0;MA;Maranhão;Nordeste;157.2;34.8;169.1;209.1;Normal;Alto;160;2;risco alto
+846;854;0;F;64.0;GO;Goiás;Centro-Oeste;155.3;21.2;109.1;172.3;Alto;Baixo;99;0;risco intermediário
+847;855;1;M;19.0;AC;Acre;Norte;123.4;38.1;92.4;168.7;Normal;Moderado;133;0;risco intermediário
+848;856;0;F;32.0;AL;Alagoas;Nordeste;178.0;20.1;162.7;234.9;Normal;Baixo;124;2;risco alto
+849;857;0;F;77.0;RO;Rondônia;Norte;140.6;39.3;74.8;137.4;Normal;Baixo;132;0;risco intermediário
+850;858;0;F;39.0;PA;Pará;Norte;122.8;33.0;85.7;136.9;Normal;Alto;101;0;risco intermediário
+851;859;1;M;45.0;AC;Acre;Norte;113.1;23.7;142.9;235.1;Normal;Baixo;111;2;risco alto
+852;860;0;F;51.0;MT;Mato Grosso;Centro-Oeste;126.5;28.0;73.6;172.5;Normal;Moderado;166;0;risco intermediário
+853;861;1;M;28.0;RO;Rondônia;Norte;173.3;26.4;198.3;208.0;Normal;Baixo;136;1;risco muito alto
+854;862;0;F;21.0;AL;Alagoas;Nordeste;163.6;31.1;224.1;200.2;Normal;Baixo;120;1;risco muito alto
+855;863;1;M;67.0;PB;Paraíba;Nordeste;144.7;22.3;165.1;204.0;Normal;Moderado;156;2;risco alto
+856;864;1;M;38.0;SE;Sergipe;Nordeste;160.5;32.7;180.3;217.7;Normal;Moderado;162;1;risco muito alto
+857;865;0;F;52.0;MT;Mato Grosso;Centro-Oeste;165.0;27.8;168.1;172.1;Normal;Baixo;166;2;risco alto
+858;866;0;F;61.0;RO;Rondônia;Norte;140.2;33.1;138.2;178.9;Normal;Baixo;162;2;risco alto
+859;867;0;F;77.0;PI;Piauí;Nordeste;116.7;22.8;124.9;129.4;Normal;Baixo;121;0;risco intermediário
+860;868;1;M;32.0;AC;Acre;Norte;128.6;32.1;130.4;174.0;Alto;Moderado;93;0;risco intermediário
+861;869;1;M;62.0;MA;Maranhão;Nordeste;203.7;32.8;114.9;168.5;Normal;Baixo;124;2;risco alto
+862;870;0;F;26.0;GO;Goiás;Centro-Oeste;159.2;32.3;133.5;201.5;Normal;Baixo;112;2;risco alto
+863;871;1;M;59.0;RN;Rio Grande do Norte;Nordeste;119.7;20.5;199.7;170.7;Alto;Moderado;130;1;risco muito alto
+864;872;1;M;54.0;MG;Minas Gerais;Sudeste;141.6;38.7;135.1;222.0;Normal;Baixo;98;2;risco alto
+865;873;1;M;28.0;AL;Alagoas;Nordeste;176.2;39.1;192.3;186.0;Normal;Baixo;129;1;risco muito alto
+866;874;1;M;53.0;SC;Santa Catarina;Sul;111.4;35.8;90.8;113.5;Normal;Baixo;135;0;risco intermediário
+867;875;1;M;75.0;SC;Santa Catarina;Sul;133.6;39.7;216.6;209.3;Normal;Baixo;141;1;risco muito alto
+868;876;1;M;65.0;PE;Pernambuco;Nordeste;156.5;26.4;120.0;152.9;Normal;Moderado;93;0;risco intermediário
+869;877;1;M;64.0;RS;Rio Grande do Sul;Sul;136.4;23.8;179.7;192.5;Normal;Moderado;131;2;risco alto
+870;878;1;M;27.0;MT;Mato Grosso;Centro-Oeste;140.8;18.9;161.0;170.3;Normal;Moderado;97;2;risco alto
+871;879;1;M;55.0;PA;Pará;Norte;134.5;32.0;138.9;182.0;Normal;Baixo;143;2;risco alto
+872;880;1;M;53.0;PA;Pará;Norte;153.9;28.6;208.2;244.8;Alto;Baixo;125;1;risco muito alto
+873;881;0;F;48.0;SP;São Paulo;Sudeste;128.8;33.6;165.4;197.2;Normal;Baixo;147;2;risco alto
+874;882;1;M;37.0;MG;Minas Gerais;Sudeste;167.0;25.8;135.4;208.8;Normal;Moderado;155;2;risco alto
+875;883;0;F;65.0;ES;Espírito Santo;Sudeste;167.2;28.5;127.2;199.2;Normal;Moderado;167;2;risco alto
+876;884;0;F;51.0;RR;Roraima;Norte;198.5;33.6;142.4;228.9;Normal;Baixo;90;2;risco alto
+877;885;0;F;22.0;MS;Mato Grosso do Sul;Centro-Oeste;174.0;25.4;201.2;255.0;Normal;Baixo;118;1;risco muito alto
+878;886;1;M;51.0;RS;Rio Grande do Sul;Sul;165.0;22.2;234.1;246.9;Normal;Baixo;120;1;risco muito alto
+879;887;0;F;68.0;PE;Pernambuco;Nordeste;126.3;23.8;180.5;207.6;Normal;Moderado;141;2;risco alto
+880;888;0;F;51.0;RS;Rio Grande do Sul;Sul;111.2;27.4;144.7;151.5;Alto;Moderado;127;2;risco alto
+881;889;1;M;27.0;MS;Mato Grosso do Sul;Centro-Oeste;145.4;21.3;158.7;240.8;Alto;Baixo;107;2;risco alto
+882;890;1;M;60.0;AM;Amazonas;Norte;127.2;28.4;71.7;157.4;Alto;Alto;114;0;risco intermediário
+883;891;0;F;73.0;MT;Mato Grosso;Centro-Oeste;135.2;22.8;151.8;173.0;Alto;Baixo;151;2;risco alto
+884;892;1;M;43.0;SC;Santa Catarina;Sul;193.0;27.2;158.4;184.8;Normal;Baixo;93;2;risco alto
+885;893;1;M;65.0;ES;Espírito Santo;Sudeste;156.0;32.0;182.0;222.6;Normal;Alto;132;1;risco muito alto
+886;894;0;F;40.0;MT;Mato Grosso;Centro-Oeste;143.7;26.0;184.6;183.4;Normal;Baixo;128;1;risco muito alto
+887;896;1;M;39.0;RS;Rio Grande do Sul;Sul;121.4;34.7;123.7;138.3;Normal;Baixo;160;0;risco intermediário
+888;897;1;M;21.0;PE;Pernambuco;Nordeste;143.7;36.3;95.4;152.1;Alto;Moderado;90;0;risco intermediário
+889;898;0;F;53.0;MA;Maranhão;Nordeste;148.3;32.0;122.9;221.3;Normal;Baixo;145;0;risco intermediário
+890;899;1;M;80.0;SE;Sergipe;Nordeste;137.3;26.4;102.7;201.7;Normal;Moderado;150;0;risco intermediário
+891;900;0;F;76.0;MA;Maranhão;Nordeste;157.1;33.6;152.0;172.3;Normal;Baixo;123;2;risco alto
+892;901;0;F;51.0;AM;Amazonas;Norte;148.2;35.7;79.6;183.5;Normal;Moderado;136;0;risco intermediário
+893;902;1;M;74.0;MG;Minas Gerais;Sudeste;187.3;30.8;220.5;279.4;Normal;Baixo;118;1;risco muito alto
+894;903;1;M;45.0;MS;Mato Grosso do Sul;Centro-Oeste;135.6;18.0;54.5;135.5;Normal;Moderado;91;0;risco intermediário
+895;904;0;F;29.0;MG;Minas Gerais;Sudeste;165.5;37.6;178.5;160.7;Alto;Baixo;107;1;risco muito alto
+896;905;0;F;18.0;GO;Goiás;Centro-Oeste;135.9;32.7;151.1;166.1;Alto;Baixo;140;2;risco alto
+897;906;0;F;68.0;SC;Santa Catarina;Sul;135.0;27.9;99.4;132.3;Normal;Baixo;111;0;risco intermediário
+898;907;1;M;58.0;GO;Goiás;Centro-Oeste;124.1;32.8;113.5;206.5;Normal;Moderado;107;0;risco intermediário
+899;908;0;F;25.0;RO;Rondônia;Norte;144.4;23.9;170.1;197.3;Normal;Baixo;163;2;risco alto
+900;909;0;F;52.0;MG;Minas Gerais;Sudeste;179.1;39.1;172.6;170.6;Alto;Baixo;117;1;risco muito alto
+901;910;1;M;77.0;AL;Alagoas;Nordeste;164.0;35.9;207.6;241.3;Alto;Moderado;163;1;risco muito alto
+902;911;1;M;50.0;MG;Minas Gerais;Sudeste;190.6;37.1;144.3;216.8;Normal;Baixo;114;2;risco alto
+903;912;1;M;69.0;PI;Piauí;Nordeste;181.1;23.7;166.9;223.5;Normal;Baixo;104;1;risco muito alto
+904;913;0;F;28.0;MA;Maranhão;Nordeste;204.8;19.4;130.8;265.6;Normal;Baixo;108;2;risco alto
+905;914;1;M;70.0;AM;Amazonas;Norte;160.4;37.0;130.6;177.2;Normal;Baixo;163;2;risco alto
+906;915;0;F;74.0;MT;Mato Grosso;Centro-Oeste;182.0;39.1;163.3;193.4;Normal;Baixo;116;2;risco alto
+907;916;1;M;25.0;DF;Distrito Federal;Centro-Oeste;152.8;20.9;157.4;170.5;Normal;Baixo;139;2;risco alto
+908;917;0;F;31.0;SC;Santa Catarina;Sul;171.8;29.6;170.5;237.7;Normal;Baixo;122;1;risco muito alto
+909;918;0;F;69.0;RS;Rio Grande do Sul;Sul;156.2;34.2;169.5;208.0;Normal;Moderado;122;2;risco alto
+910;919;0;F;76.0;AL;Alagoas;Nordeste;147.9;19.4;141.9;176.2;Normal;Baixo;109;2;risco alto
+911;920;0;F;28.0;SE;Sergipe;Nordeste;145.0;35.9;145.4;207.0;Normal;Moderado;123;2;risco alto
+912;921;0;F;21.0;RR;Roraima;Norte;181.4;24.5;115.3;221.4;Alto;Baixo;160;2;risco alto
+913;922;0;F;32.0;AM;Amazonas;Norte;173.3;28.5;137.8;176.3;Normal;Alto;168;2;risco alto
+914;923;0;F;46.0;TO;Tocantins;Norte;132.6;37.3;142.5;162.8;Normal;Moderado;94;2;risco alto
+915;924;0;F;30.0;PB;Paraíba;Nordeste;107.2;25.1;120.2;151.9;Normal;Baixo;170;0;risco intermediário
+916;925;1;M;67.0;AL;Alagoas;Nordeste;75.1;23.7;116.4;163.1;Alto;Moderado;103;0;risco intermediário
+917;926;0;F;49.0;ES;Espírito Santo;Sudeste;128.9;27.4;99.3;158.3;Normal;Baixo;154;0;risco intermediário
+918;927;0;F;80.0;RS;Rio Grande do Sul;Sul;162.5;20.2;158.8;186.6;Normal;Baixo;114;2;risco alto
+919;928;0;F;78.0;MA;Maranhão;Nordeste;129.0;36.1;126.6;158.9;Alto;Moderado;156;0;risco intermediário
+920;929;0;F;62.0;RS;Rio Grande do Sul;Sul;146.2;36.1;106.0;196.3;Alto;Moderado;157;0;risco intermediário
+921;930;1;M;61.0;PI;Piauí;Nordeste;140.5;26.7;95.5;209.8;Normal;Baixo;119;0;risco intermediário
+922;931;0;F;33.0;MA;Maranhão;Nordeste;141.5;28.1;118.2;182.4;Normal;Baixo;91;0;risco intermediário
+923;932;0;F;58.0;SE;Sergipe;Nordeste;174.8;36.1;226.0;215.5;Normal;Alto;132;1;risco muito alto
+924;933;0;F;59.0;MA;Maranhão;Nordeste;136.9;25.5;156.4;152.3;Normal;Baixo;149;2;risco alto
+925;934;0;F;55.0;RO;Rondônia;Norte;139.3;21.3;141.6;166.3;Normal;Baixo;146;2;risco alto
+926;935;1;M;29.0;PE;Pernambuco;Nordeste;150.5;39.8;184.0;206.7;Normal;Baixo;116;1;risco muito alto
+927;936;1;M;63.0;PB;Paraíba;Nordeste;175.0;23.1;210.3;256.2;Normal;Baixo;91;1;risco muito alto
+928;937;0;F;18.0;AC;Acre;Norte;138.0;23.3;107.7;193.22;Normal;Moderado;166;0;risco intermediário
+929;938;1;M;70.0;AC;Acre;Norte;125.6;29.8;139.9;177.8;Normal;Moderado;101;2;risco alto
+930;939;1;M;70.0;RO;Rondônia;Norte;156.5;26.0;142.9;165.7;Alto;Baixo;104;2;risco alto
+931;940;0;F;30.0;GO;Goiás;Centro-Oeste;170.3;28.0;160.2;202.6;Normal;Moderado;155;2;risco alto
+932;941;1;M;22.0;RJ;Rio de Janeiro;Sudeste;155.1;26.5;131.3;177.6;Normal;Moderado;149;2;risco alto
+933;942;0;F;58.0;PR;Paraná;Sul;179.5;29.3;124.8;203.9;Normal;Baixo;163;2;risco alto
+934;943;1;M;38.0;SE;Sergipe;Nordeste;143.9;39.0;139.6;179.8;Normal;Baixo;117;2;risco alto
+935;944;0;F;44.0;RJ;Rio de Janeiro;Sudeste;140.4;19.7;170.0;141.7;Normal;Baixo;95;2;risco alto
+936;945;0;F;21.0;RS;Rio Grande do Sul;Sul;169.9;33.1;166.6;213.7;Normal;Baixo;144;2;risco alto
+937;946;0;F;63.0;PA;Pará;Norte;175.4;36.1;179.7;216.6;Alto;Alto;117;1;risco muito alto
+938;947;0;F;59.0;RS;Rio Grande do Sul;Sul;206.1;33.9;173.7;251.1;Normal;Baixo;129;1;risco muito alto
+939;948;1;M;28.0;AC;Acre;Norte;159.0;27.6;71.5;145.7;Normal;Moderado;157;0;risco intermediário
+940;949;0;F;50.0;SE;Sergipe;Nordeste;155.9;21.9;119.6;214.2;Normal;Moderado;146;0;risco intermediário
+941;950;0;F;72.0;MG;Minas Gerais;Sudeste;174.5;37.9;164.3;218.5;Normal;Moderado;111;2;risco alto
+942;951;1;M;68.0;CE;Ceará;Nordeste;144.5;27.9;129.6;222.2;Normal;Baixo;116;2;risco alto
+943;952;1;M;32.0;MT;Mato Grosso;Centro-Oeste;168.3;20.6;241.8;229.6;Alto;Baixo;104;1;risco muito alto
+944;953;0;F;31.0;MA;Maranhão;Nordeste;151.7;39.3;130.4;207.2;Normal;Baixo;132;2;risco alto
+945;954;0;F;47.0;MG;Minas Gerais;Sudeste;168.0;31.8;154.0;199.2;Normal;Baixo;90;2;risco alto
+946;955;0;F;76.0;MS;Mato Grosso do Sul;Centro-Oeste;175.6;20.4;132.4;165.8;Normal;Baixo;148;2;risco alto
+947;956;1;M;53.0;PA;Pará;Norte;118.1;24.5;172.3;151.9;Normal;Baixo;131;2;risco alto
+948;957;0;F;77.0;RS;Rio Grande do Sul;Sul;141.8;21.1;199.0;177.4;Normal;Moderado;164;1;risco muito alto
+949;958;0;F;46.0;MA;Maranhão;Nordeste;111.4;33.2;105.9;148.8;Alto;Baixo;111;0;risco intermediário
+950;959;1;M;34.0;SP;São Paulo;Sudeste;130.9;21.4;149.6;191.6;Normal;Baixo;112;2;risco alto
+951;960;1;M;22.0;PE;Pernambuco;Nordeste;152.5;26.8;78.7;174.4;Normal;Moderado;105;0;risco intermediário
+952;961;1;M;47.0;PI;Piauí;Nordeste;118.2;18.2;164.9;191.7;Normal;Moderado;106;2;risco alto
+953;962;1;M;24.0;SP;São Paulo;Sudeste;135.3;35.4;180.4;149.5;Normal;Baixo;157;2;risco alto
+954;963;0;F;30.0;AC;Acre;Norte;162.6;36.1;137.7;233.1;Normal;Baixo;95;2;risco alto
+955;964;0;F;72.0;PE;Pernambuco;Nordeste;176.4;19.6;128.5;214.3;Normal;Baixo;98;2;risco alto
+956;965;0;F;30.0;RJ;Rio de Janeiro;Sudeste;136.8;36.3;219.2;209.4;Normal;Baixo;118;1;risco muito alto
+957;966;0;F;24.0;AC;Acre;Norte;153.0;28.8;147.2;175.3;Normal;Baixo;167;2;risco alto
+958;967;1;M;25.0;MT;Mato Grosso;Centro-Oeste;164.5;21.1;130.1;197.9;Normal;Baixo;116;2;risco alto
+959;968;0;F;78.0;SC;Santa Catarina;Sul;186.6;33.8;122.4;198.6;Normal;Baixo;134;2;risco alto
+960;969;0;F;64.0;AC;Acre;Norte;170.1;20.6;143.7;174.4;Normal;Baixo;108;2;risco alto
+961;970;1;M;50.0;AP;Amapá;Norte;133.1;24.9;148.6;238.6;Normal;Baixo;164;2;risco alto
+962;971;0;F;41.0;BA;Bahia;Nordeste;200.6;35.7;192.8;258.4;Normal;Baixo;108;1;risco muito alto
+963;973;0;F;40.0;PR;Paraná;Sul;131.4;24.7;163.0;170.4;Normal;Baixo;162;2;risco alto
+964;974;0;F;34.0;PA;Pará;Norte;185.9;22.8;158.9;194.3;Alto;Alto;111;2;risco alto
+965;975;1;M;35.0;GO;Goiás;Centro-Oeste;130.9;25.8;176.3;195.7;Normal;Baixo;94;2;risco alto
+966;976;1;M;51.0;AC;Acre;Norte;169.2;22.9;199.5;198.8;Normal;Baixo;165;1;risco muito alto
+967;977;0;F;39.0;AM;Amazonas;Norte;147.2;25.3;205.4;151.6;Normal;Baixo;104;1;risco muito alto
+968;978;1;M;55.0;CE;Ceará;Nordeste;169.1;23.2;134.4;236.4;Normal;Baixo;90;2;risco alto
+969;979;0;F;60.0;AL;Alagoas;Nordeste;140.9;26.5;177.0;201.4;Normal;Moderado;163;2;risco alto
+970;980;1;M;29.0;SE;Sergipe;Nordeste;124.6;25.8;133.2;176.2;Normal;Baixo;141;0;risco intermediário
+971;981;0;F;44.0;RS;Rio Grande do Sul;Sul;132.1;23.1;162.9;199.4;Normal;Baixo;128;2;risco alto
+972;982;1;M;62.0;PA;Pará;Norte;169.4;27.1;84.3;189.3;Normal;Baixo;131;0;risco intermediário
+973;983;1;M;26.0;TO;Tocantins;Norte;127.8;35.4;96.9;200.8;Alto;Baixo;167;0;risco intermediário
+974;984;1;M;43.0;PE;Pernambuco;Nordeste;153.0;19.4;142.6;182.3;Normal;Baixo;159;2;risco alto
+975;985;0;F;66.0;AC;Acre;Norte;154.7;20.8;132.7;209.4;Alto;Alto;116;2;risco alto
+976;986;0;F;35.0;DF;Distrito Federal;Centro-Oeste;147.8;34.8;137.5;208.2;Normal;Baixo;92;2;risco alto
+977;987;1;M;49.0;PA;Pará;Norte;169.8;27.3;135.1;194.6;Normal;Moderado;150;2;risco alto
+978;988;1;M;57.0;AM;Amazonas;Norte;87.3;23.8;63.4;146.4;Normal;Moderado;113;0;risco intermediário
+979;989;0;F;51.0;AP;Amapá;Norte;155.4;19.1;144.8;198.4;Normal;Moderado;110;2;risco alto
+980;990;1;M;34.0;TO;Tocantins;Norte;127.5;21.7;182.7;215.1;Normal;Alto;147;2;risco alto
+981;991;1;M;79.0;BA;Bahia;Nordeste;161.4;29.9;110.3;237.1;Normal;Baixo;100;0;risco intermediário
+982;992;1;M;23.0;PR;Paraná;Sul;160.0;38.7;156.0;221.1;Normal;Baixo;119;2;risco alto
+983;993;0;F;42.0;BA;Bahia;Nordeste;153.5;20.6;116.7;205.3;Alto;Alto;130;0;risco intermediário
+984;994;1;M;52.0;MA;Maranhão;Nordeste;155.4;22.6;117.2;204.9;Normal;Baixo;169;0;risco intermediário
+985;995;0;F;18.0;MG;Minas Gerais;Sudeste;154.2;32.7;152.9;203.7;Normal;Alto;148;2;risco alto
+986;997;1;M;24.0;CE;Ceará;Nordeste;171.4;21.8;125.2;194.3;Normal;Baixo;137;2;risco alto
+987;998;1;M;78.0;PR;Paraná;Sul;157.6;37.1;120.7;188.2;Alto;Baixo;94;2;risco alto
+988;999;1;M;57.0;MT;Mato Grosso;Centro-Oeste;112.2;30.4;54.6;147.5;Alto;Baixo;141;0;risco intermediário
+989;1000;1;M;27.0;AC;Acre;Norte;131.7;39.4;156.2;152.9;Normal;Baixo;118;2;risco alto
